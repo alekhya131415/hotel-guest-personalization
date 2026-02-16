@@ -1,0 +1,1001 @@
+guest_id,spa_affinity_score,adventure_affinity_score,culture_affinity_score,dining_affinity_score,travel_type,budget_segment,stay_duration_days,weather_condition,temparature,rain_probability,event_category,event_popularity_score,event_indoor_flag,attraction_rating,seasonal_tourism_index,weather_activity_match,event_preference_alignment,overall_experience_score,recommended_experience
+1,0.16,0.85,0.87,1,Business,Luxury,8,Cloudy,27,63,Food Carnival,50,1,3.7,5,0.84,0.81,39,Adventure Trek
+2,0.57,0.41,0.59,0,Business,Mid-range,9,Snowy,15,97,Wellness Expo,61,1,3.9,21,0.74,0.84,82,Indoor Wellness Retreat
+3,0.27,0.05,0.04,0,Business,Luxury,3,Rainy,29,26,Cultural Fair,95,0,4.8,20,0.2,0.97,55,Adventure Trek
+4,0.53,0.42,0.4,1,Family,Budget,3,Sunny,12,45,Sports Event,24,1,3.5,85,0.96,0.07,13,City Tour
+5,0.47,0.14,0.99,1,Couple,Luxury,2,Rainy,11,81,Food Carnival,61,1,3.7,13,0.16,0.56,55,Cultural Museum Visit
+6,0.5,0.22,0.3,0,Solo,Luxury,12,Rainy,36,99,Sports Event,3,1,3.9,29,0.55,0.43,46,City Tour
+7,0.64,0.75,0.19,0,Couple,Luxury,12,Sunny,30,36,Wellness Expo,39,0,3.7,61,0.25,0.82,3,Food Experience
+8,0.67,0.83,0.6,0,Business,Mid-range,11,Snowy,22,74,Wellness Expo,30,1,3.9,46,0.3,0.82,32,Indoor Wellness Retreat
+9,0.6,0.7,0.84,0,Couple,Budget,3,Snowy,37,21,Sports Event,48,1,4.2,68,0.57,0.54,49,Food Experience
+10,0.19,0.91,0.04,0,Business,Luxury,13,Cloudy,38,65,Food Carnival,13,0,4.7,83,0.64,0.4,74,Adventure Trek
+11,0.75,0.55,0.78,1,Couple,Mid-range,10,Rainy,17,5,Sports Event,53,0,4.9,92,0.68,0.85,54,Cultural Museum Visit
+12,0.17,0.86,0.73,1,Couple,Luxury,11,Sunny,18,28,Sports Event,71,1,4.9,52,0.47,0.4,56,Indoor Wellness Retreat
+13,0.85,0.97,0.28,1,Business,Mid-range,9,Sunny,28,78,Music Festival,24,1,3.8,41,0.05,0.28,85,Cultural Museum Visit
+14,0.15,0.27,0.69,0,Business,Budget,10,Cloudy,11,94,Music Festival,64,0,4.9,63,0.44,0.72,73,Food Experience
+15,0.76,0.68,0.06,0,Solo,Budget,1,Snowy,29,88,Food Carnival,97,1,4.8,27,0.59,0.9,76,Food Experience
+16,0.12,0.24,0.44,0,Solo,Luxury,3,Rainy,31,50,Food Carnival,38,1,3.7,82,0.36,0.01,73,Spa Package
+17,0.76,0.57,0.11,0,Business,Mid-range,9,Sunny,18,96,Cultural Fair,64,1,4.6,80,0.39,0.95,5,City Tour
+18,0.37,0.88,0.46,1,Business,Budget,8,Cloudy,33,5,Music Festival,91,0,3.9,83,0.97,0.13,58,Food Experience
+19,0.93,0.85,0.6,1,Family,Budget,12,Snowy,25,50,Music Festival,72,1,4.8,96,0.92,0.36,88,Adventure Trek
+20,0.04,0.69,0.68,0,Couple,Mid-range,2,Snowy,12,6,Wellness Expo,89,0,3.8,68,0.37,0.5,57,Cultural Museum Visit
+21,0.14,0.36,0.9,0,Business,Luxury,1,Cloudy,10,48,Music Festival,79,1,4.8,91,0.69,0.28,96,Cultural Museum Visit
+22,0.08,0.92,0.78,1,Family,Luxury,4,Sunny,32,76,Cultural Fair,36,0,4.8,32,0.49,0.01,20,Spa Package
+23,0.02,0.4,0.37,1,Solo,Mid-range,13,Cloudy,10,56,Music Festival,37,1,3.6,84,0.61,0.06,98,Adventure Trek
+24,0.68,0.69,0.89,1,Couple,Budget,8,Snowy,33,33,Wellness Expo,82,0,4.7,24,0.52,0.59,75,Spa Package
+25,0.98,0.14,0.01,0,Family,Luxury,2,Rainy,25,44,Sports Event,26,0,3.9,85,0.58,0.41,93,Indoor Wellness Retreat
+26,0.7,0.21,0.03,0,Solo,Mid-range,4,Snowy,13,72,Food Carnival,57,0,4.5,33,0.84,0.96,84,Indoor Wellness Retreat
+27,0.59,0.7,0.93,0,Business,Budget,14,Sunny,20,69,Wellness Expo,94,0,4.1,66,0.48,0.96,65,Adventure Trek
+28,0.42,0.97,0.28,1,Solo,Luxury,5,Cloudy,26,88,Cultural Fair,59,0,4.8,6,0.56,0.12,64,Cultural Museum Visit
+29,0.73,0.6,0.34,1,Business,Budget,14,Cloudy,31,72,Sports Event,10,1,4.9,63,0.95,0.21,6,Adventure Trek
+30,0.52,0.05,0.4,0,Family,Luxury,1,Sunny,30,7,Sports Event,49,1,4.8,80,0.18,0.32,23,Indoor Wellness Retreat
+31,0.06,0.92,0.69,1,Family,Luxury,6,Rainy,27,30,Cultural Fair,27,1,3.7,63,0.92,0.32,16,Adventure Trek
+32,0.95,0.73,0.66,1,Couple,Budget,6,Cloudy,21,38,Cultural Fair,90,0,4.8,56,0.08,0.16,59,Indoor Wellness Retreat
+33,0.94,0.13,0.7,1,Business,Budget,4,Sunny,15,16,Food Carnival,19,0,4.3,17,0.72,0.41,74,Spa Package
+34,0.32,0.44,0.9,0,Family,Mid-range,6,Sunny,38,35,Music Festival,9,1,4.0,6,0.21,0.28,69,Adventure Trek
+35,0.7,0.77,0.21,1,Business,Mid-range,13,Rainy,27,20,Sports Event,3,0,4.6,82,0.81,0.29,21,Adventure Trek
+36,0.84,0.24,0.46,1,Business,Mid-range,14,Cloudy,33,63,Food Carnival,83,0,4.7,34,0.93,0.81,1,City Tour
+37,0.77,0.45,0.32,0,Family,Luxury,10,Cloudy,24,15,Music Festival,89,1,3.9,36,0.38,0.9,11,Indoor Wellness Retreat
+38,0.24,0.53,0.67,1,Solo,Budget,8,Cloudy,11,93,Music Festival,38,0,4.2,78,0.2,0.92,27,Cultural Museum Visit
+39,0.25,0.52,0.88,1,Solo,Budget,4,Snowy,15,49,Cultural Fair,19,1,4.2,10,0.51,0.97,85,Cultural Museum Visit
+40,0.86,0.89,0.81,1,Solo,Luxury,14,Sunny,30,84,Music Festival,1,0,4.7,57,0.51,0.78,85,Food Experience
+41,0.78,0.98,0.6,1,Couple,Mid-range,5,Snowy,32,53,Food Carnival,62,0,3.5,40,0.02,0.16,16,Food Experience
+42,0.66,0.06,0.07,0,Family,Budget,14,Rainy,18,52,Cultural Fair,84,1,3.6,93,0.74,0.6,93,Food Experience
+43,0.64,0.91,0.33,1,Solo,Luxury,1,Sunny,23,47,Cultural Fair,13,0,4.6,5,0.13,0.54,18,Spa Package
+44,0.92,0.0,0.36,1,Business,Budget,9,Cloudy,31,80,Sports Event,77,0,5.0,86,0.78,0.44,64,Food Experience
+45,0.47,0.32,0.09,0,Family,Luxury,14,Snowy,12,18,Cultural Fair,8,1,3.9,85,0.21,0.94,76,Food Experience
+46,0.92,0.53,0.29,1,Couple,Luxury,3,Rainy,39,0,Sports Event,35,1,4.4,28,0.13,0.55,83,Food Experience
+47,0.86,0.93,0.54,1,Solo,Mid-range,13,Snowy,31,50,Cultural Fair,81,0,3.8,19,0.65,0.25,81,Adventure Trek
+48,0.95,0.75,0.76,1,Business,Budget,10,Rainy,10,18,Cultural Fair,74,1,4.9,92,0.44,0.69,27,Adventure Trek
+49,0.69,0.06,0.87,0,Business,Mid-range,11,Snowy,17,8,Wellness Expo,79,1,4.3,17,0.19,0.57,93,Indoor Wellness Retreat
+50,0.59,0.52,0.03,0,Family,Luxury,12,Snowy,24,26,Wellness Expo,93,0,4.4,91,0.88,0.31,89,Spa Package
+51,0.68,0.17,0.1,1,Business,Mid-range,7,Sunny,29,98,Food Carnival,22,1,4.1,75,0.13,0.46,11,Food Experience
+52,0.88,0.33,0.13,1,Family,Mid-range,7,Sunny,15,12,Music Festival,41,1,4.0,89,0.8,0.83,84,Food Experience
+53,0.08,0.87,0.77,1,Family,Budget,9,Sunny,23,92,Sports Event,79,1,4.2,38,0.75,0.35,57,Indoor Wellness Retreat
+54,0.52,0.42,0.65,0,Family,Mid-range,1,Cloudy,10,25,Wellness Expo,86,0,4.2,27,0.3,0.8,45,Adventure Trek
+55,0.31,0.91,0.73,1,Solo,Mid-range,10,Rainy,27,95,Wellness Expo,17,0,3.9,18,0.41,0.05,29,City Tour
+56,0.45,0.48,0.37,1,Solo,Budget,14,Cloudy,33,32,Music Festival,74,1,4.8,35,0.9,0.72,67,Spa Package
+57,0.9,0.8,0.53,1,Solo,Budget,12,Sunny,22,100,Cultural Fair,44,1,5.0,90,0.35,0.46,74,Indoor Wellness Retreat
+58,0.24,0.78,0.63,1,Solo,Luxury,14,Cloudy,27,8,Music Festival,13,1,3.6,44,0.4,0.16,89,City Tour
+59,0.58,0.87,0.25,1,Business,Luxury,7,Sunny,36,17,Wellness Expo,75,1,4.2,93,0.92,0.17,38,Indoor Wellness Retreat
+60,0.83,0.65,0.36,1,Business,Mid-range,4,Rainy,26,27,Wellness Expo,12,0,4.5,14,0.35,0.35,12,Spa Package
+61,0.65,0.49,0.0,0,Business,Mid-range,12,Sunny,22,21,Wellness Expo,74,1,3.7,21,0.28,0.5,63,Spa Package
+62,0.69,0.92,0.71,1,Business,Mid-range,4,Cloudy,27,6,Food Carnival,72,0,4.6,7,0.54,0.66,13,Indoor Wellness Retreat
+63,0.03,0.16,0.08,0,Business,Luxury,2,Snowy,12,36,Food Carnival,75,0,4.0,49,0.14,0.34,57,Indoor Wellness Retreat
+64,0.09,0.41,0.9,1,Solo,Budget,2,Snowy,28,96,Sports Event,91,1,4.3,81,0.94,0.21,55,Cultural Museum Visit
+65,0.39,0.41,0.54,1,Family,Budget,11,Sunny,22,27,Wellness Expo,17,0,4.2,29,0.38,0.26,73,Food Experience
+66,0.58,0.69,0.68,0,Business,Budget,8,Sunny,22,2,Sports Event,7,1,4.0,67,0.94,0.37,26,City Tour
+67,0.81,0.96,0.24,1,Couple,Luxury,10,Cloudy,20,68,Music Festival,89,1,4.1,43,0.28,0.82,38,Adventure Trek
+68,0.13,0.38,0.54,0,Family,Budget,9,Sunny,33,71,Cultural Fair,14,1,4.1,83,0.87,0.35,46,Food Experience
+69,0.49,0.75,0.35,0,Couple,Luxury,13,Snowy,28,21,Sports Event,73,1,3.9,59,0.67,0.92,59,Adventure Trek
+70,0.54,0.5,0.04,0,Business,Mid-range,2,Cloudy,40,5,Food Carnival,30,0,3.8,83,0.5,0.24,7,Cultural Museum Visit
+71,0.03,0.44,0.97,0,Solo,Mid-range,8,Rainy,38,4,Cultural Fair,16,0,4.1,12,0.22,0.74,95,Food Experience
+72,0.62,0.69,0.24,0,Couple,Luxury,7,Snowy,33,62,Music Festival,45,0,4.7,93,0.13,0.16,71,City Tour
+73,0.93,0.59,0.52,1,Solo,Mid-range,4,Sunny,15,57,Music Festival,46,1,3.9,1,0.43,0.88,2,Food Experience
+74,0.6,0.75,0.59,0,Solo,Budget,7,Cloudy,19,45,Sports Event,16,0,3.8,2,0.37,0.93,88,Cultural Museum Visit
+75,0.12,0.68,0.58,1,Family,Luxury,5,Sunny,40,7,Cultural Fair,81,1,5.0,78,0.87,0.92,59,City Tour
+76,0.96,0.37,0.19,1,Solo,Mid-range,10,Snowy,30,17,Music Festival,9,0,4.5,4,0.86,0.96,48,Adventure Trek
+77,0.84,0.26,0.38,1,Couple,Mid-range,6,Sunny,36,47,Food Carnival,65,1,3.9,63,0.46,0.72,40,Spa Package
+78,0.52,0.88,0.07,1,Family,Luxury,8,Cloudy,20,24,Wellness Expo,53,0,4.8,64,0.14,0.55,67,Spa Package
+79,0.73,0.14,0.93,1,Business,Mid-range,3,Snowy,14,63,Food Carnival,74,1,4.1,76,0.25,0.41,66,Indoor Wellness Retreat
+80,0.32,0.7,0.95,1,Solo,Budget,8,Snowy,19,15,Food Carnival,67,1,4.5,48,0.83,0.8,88,City Tour
+81,0.5,0.35,0.05,0,Couple,Mid-range,8,Snowy,14,66,Cultural Fair,19,0,3.8,65,0.04,0.73,33,Adventure Trek
+82,0.17,0.61,0.9,0,Couple,Mid-range,9,Cloudy,16,62,Food Carnival,24,0,4.0,67,0.74,0.52,97,Food Experience
+83,0.88,0.41,0.85,0,Business,Budget,1,Sunny,36,93,Sports Event,2,1,4.1,46,0.16,0.59,73,City Tour
+84,0.6,0.25,0.05,0,Couple,Luxury,4,Cloudy,24,25,Food Carnival,62,1,4.8,34,0.69,0.99,83,City Tour
+85,0.66,0.16,0.77,0,Couple,Mid-range,13,Snowy,17,35,Cultural Fair,89,1,4.3,52,0.22,0.48,6,Cultural Museum Visit
+86,0.66,0.71,0.43,0,Couple,Luxury,1,Sunny,19,49,Music Festival,17,0,3.8,89,0.89,0.52,30,Adventure Trek
+87,0.34,0.22,0.59,1,Family,Mid-range,14,Cloudy,20,49,Cultural Fair,25,0,3.9,41,0.26,0.5,74,City Tour
+88,0.7,0.78,0.05,1,Business,Mid-range,12,Cloudy,30,46,Wellness Expo,65,1,4.6,42,0.26,0.6,20,Spa Package
+89,1.0,0.7,0.09,0,Business,Luxury,1,Snowy,16,76,Music Festival,86,1,4.8,70,0.54,0.36,56,Adventure Trek
+90,0.88,0.59,0.53,1,Business,Mid-range,3,Snowy,23,15,Sports Event,11,1,4.0,64,0.46,0.67,62,City Tour
+91,0.59,0.78,0.51,0,Family,Luxury,14,Sunny,10,82,Food Carnival,19,1,4.5,40,0.39,0.84,41,Indoor Wellness Retreat
+92,0.69,0.64,0.41,1,Couple,Luxury,14,Cloudy,23,4,Music Festival,83,0,4.7,9,0.82,0.85,22,Cultural Museum Visit
+93,0.17,0.32,0.46,1,Business,Mid-range,4,Snowy,33,74,Music Festival,66,1,4.8,78,0.98,0.55,73,Food Experience
+94,0.23,0.44,0.08,0,Business,Luxury,9,Rainy,19,18,Wellness Expo,53,1,4.4,73,0.47,0.14,79,Cultural Museum Visit
+95,0.27,0.39,0.53,1,Family,Luxury,8,Cloudy,10,24,Wellness Expo,89,1,3.7,89,0.62,0.58,79,Spa Package
+96,0.07,0.86,0.89,1,Solo,Budget,13,Cloudy,13,49,Cultural Fair,80,1,4.4,10,0.67,0.27,84,Adventure Trek
+97,0.23,0.82,0.87,0,Family,Budget,12,Cloudy,30,86,Sports Event,26,0,3.9,44,0.92,0.83,39,Cultural Museum Visit
+98,0.25,0.27,0.16,0,Family,Mid-range,10,Sunny,22,64,Music Festival,2,1,4.6,93,0.45,0.53,12,City Tour
+99,0.6,0.46,0.4,1,Solo,Mid-range,8,Cloudy,18,31,Cultural Fair,43,0,4.4,37,0.9,0.17,89,City Tour
+100,0.2,0.76,0.2,1,Family,Mid-range,9,Rainy,31,56,Sports Event,52,1,4.8,55,0.8,0.57,64,Indoor Wellness Retreat
+101,0.06,0.14,0.39,0,Couple,Budget,5,Rainy,24,77,Wellness Expo,31,0,4.0,94,0.37,0.36,26,City Tour
+102,0.53,0.13,0.31,1,Family,Luxury,12,Cloudy,13,52,Cultural Fair,86,0,4.6,37,0.47,0.9,55,Food Experience
+103,0.48,0.19,0.83,0,Family,Mid-range,5,Cloudy,22,51,Food Carnival,30,1,3.7,53,0.21,0.87,13,City Tour
+104,0.57,0.91,0.75,1,Business,Budget,14,Snowy,19,48,Sports Event,75,1,4.3,37,0.79,0.19,85,Adventure Trek
+105,0.49,0.89,0.11,0,Couple,Luxury,12,Snowy,34,89,Sports Event,79,0,4.8,79,0.87,0.47,20,Spa Package
+106,0.11,0.4,0.47,0,Solo,Budget,14,Snowy,13,63,Music Festival,61,1,4.0,65,0.22,0.26,84,Spa Package
+107,0.25,0.99,0.98,1,Business,Luxury,2,Sunny,11,54,Sports Event,15,0,4.6,28,0.06,0.36,10,City Tour
+108,0.84,0.04,0.82,0,Couple,Luxury,9,Cloudy,26,24,Music Festival,87,1,3.9,100,0.84,0.18,8,City Tour
+109,0.42,0.8,0.64,0,Solo,Luxury,13,Rainy,24,96,Cultural Fair,11,1,4.1,90,0.32,0.96,30,Adventure Trek
+110,0.94,0.79,0.17,0,Solo,Luxury,7,Cloudy,17,78,Wellness Expo,57,1,4.7,60,0.9,0.27,80,Adventure Trek
+111,0.93,0.14,0.71,1,Couple,Budget,3,Cloudy,37,28,Sports Event,81,0,4.5,33,0.32,0.93,37,Indoor Wellness Retreat
+112,0.04,0.24,0.17,1,Family,Mid-range,6,Sunny,38,35,Music Festival,67,1,4.6,23,0.64,0.18,56,Adventure Trek
+113,0.67,0.84,0.01,0,Solo,Budget,12,Snowy,11,29,Cultural Fair,97,1,3.7,89,0.2,0.07,71,Cultural Museum Visit
+114,0.02,0.14,0.08,0,Family,Mid-range,3,Rainy,12,24,Cultural Fair,28,1,3.9,0,0.94,0.45,9,Adventure Trek
+115,0.34,0.41,0.19,0,Business,Mid-range,1,Sunny,32,90,Music Festival,13,0,4.4,41,0.54,0.85,37,City Tour
+116,0.11,0.86,0.69,0,Business,Budget,5,Cloudy,27,58,Sports Event,90,0,4.9,43,0.09,0.14,44,Indoor Wellness Retreat
+117,0.45,0.47,0.57,1,Family,Budget,13,Rainy,24,52,Sports Event,26,0,4.6,32,0.25,0.94,91,Indoor Wellness Retreat
+118,0.97,0.91,0.2,0,Solo,Luxury,12,Rainy,10,79,Food Carnival,43,0,4.6,73,0.04,0.47,22,Indoor Wellness Retreat
+119,0.74,0.61,0.95,0,Business,Luxury,11,Rainy,17,67,Sports Event,34,1,4.3,9,0.51,0.7,18,City Tour
+120,0.87,0.57,0.93,0,Couple,Mid-range,2,Rainy,27,39,Wellness Expo,67,0,4.2,3,0.23,0.78,47,City Tour
+121,0.88,0.51,0.58,0,Business,Mid-range,5,Sunny,34,70,Wellness Expo,98,1,4.8,75,0.24,0.15,14,Food Experience
+122,0.27,0.49,0.9,0,Business,Luxury,5,Cloudy,34,40,Sports Event,47,1,4.0,40,0.25,0.02,12,Cultural Museum Visit
+123,0.63,0.96,0.03,0,Solo,Luxury,11,Snowy,20,86,Food Carnival,37,1,4.5,95,0.81,0.42,75,Indoor Wellness Retreat
+124,0.26,0.56,0.09,1,Business,Budget,12,Cloudy,34,10,Music Festival,9,0,4.1,9,0.56,0.66,20,Adventure Trek
+125,0.8,0.43,0.59,0,Couple,Mid-range,6,Rainy,35,86,Wellness Expo,80,1,4.8,21,0.12,0.08,39,City Tour
+126,0.17,0.36,0.92,0,Business,Luxury,10,Snowy,21,33,Food Carnival,78,1,4.0,42,0.12,0.3,75,Spa Package
+127,0.36,0.01,0.38,0,Business,Luxury,8,Cloudy,36,20,Wellness Expo,32,1,4.8,38,0.01,0.99,48,Adventure Trek
+128,0.96,0.34,0.58,1,Family,Budget,4,Rainy,27,55,Wellness Expo,36,1,4.2,1,0.68,0.4,85,Adventure Trek
+129,0.02,0.59,0.29,1,Family,Luxury,5,Sunny,17,9,Music Festival,87,1,4.0,64,0.86,0.01,46,Adventure Trek
+130,0.68,0.52,0.77,1,Solo,Mid-range,8,Cloudy,10,77,Music Festival,0,0,3.8,96,0.35,0.8,74,City Tour
+131,0.37,0.94,0.72,1,Business,Mid-range,11,Rainy,13,85,Sports Event,41,0,4.8,81,0.11,0.33,86,City Tour
+132,0.01,0.78,0.17,0,Solo,Luxury,10,Cloudy,14,39,Food Carnival,60,0,4.8,67,0.53,0.53,31,Food Experience
+133,0.83,0.51,0.83,0,Business,Budget,8,Rainy,27,19,Cultural Fair,34,1,4.2,99,0.58,0.38,17,Food Experience
+134,1.0,0.36,0.83,1,Family,Luxury,1,Sunny,22,12,Sports Event,79,0,4.3,3,0.71,0.43,95,Food Experience
+135,0.21,0.57,0.86,0,Business,Budget,9,Rainy,37,23,Music Festival,49,1,4.4,31,0.66,0.69,84,Food Experience
+136,0.66,0.02,0.76,0,Solo,Budget,11,Sunny,20,19,Food Carnival,7,0,4.4,23,0.81,0.34,3,Cultural Museum Visit
+137,0.78,0.5,0.79,1,Family,Budget,7,Snowy,17,29,Wellness Expo,31,0,3.9,3,0.31,0.81,91,Adventure Trek
+138,0.67,0.91,0.51,1,Couple,Luxury,3,Sunny,22,91,Cultural Fair,4,1,3.9,45,0.33,0.4,97,Cultural Museum Visit
+139,0.64,0.01,0.29,0,Family,Luxury,8,Snowy,25,49,Food Carnival,5,1,4.8,8,0.19,0.65,88,Spa Package
+140,0.33,0.76,0.76,1,Business,Budget,13,Cloudy,39,55,Music Festival,27,1,4.5,51,0.16,0.21,70,City Tour
+141,0.54,0.34,0.14,0,Business,Mid-range,6,Snowy,21,16,Food Carnival,61,1,4.8,77,0.13,0.7,54,Spa Package
+142,0.87,0.98,0.4,0,Family,Budget,7,Rainy,11,5,Cultural Fair,93,0,5.0,33,0.53,0.48,96,Indoor Wellness Retreat
+143,0.65,0.24,0.38,0,Couple,Luxury,10,Sunny,13,91,Music Festival,89,0,4.8,49,0.87,0.45,13,Adventure Trek
+144,0.59,0.3,0.98,1,Business,Budget,9,Cloudy,19,55,Wellness Expo,83,0,3.9,48,0.46,0.6,42,Cultural Museum Visit
+145,0.31,0.04,0.34,0,Family,Luxury,10,Cloudy,25,12,Music Festival,39,1,4.6,72,0.11,0.48,20,Adventure Trek
+146,0.41,0.25,0.17,0,Family,Mid-range,1,Sunny,31,74,Cultural Fair,55,1,4.1,96,0.56,0.12,97,City Tour
+147,0.78,0.43,0.48,0,Family,Budget,6,Snowy,17,12,Music Festival,61,1,4.5,25,0.97,0.62,61,Food Experience
+148,0.0,0.56,0.2,1,Business,Budget,1,Cloudy,31,80,Food Carnival,60,1,4.7,95,0.77,0.21,78,Adventure Trek
+149,0.41,0.11,0.5,0,Business,Mid-range,14,Cloudy,32,15,Sports Event,28,1,4.4,25,0.38,0.27,58,Indoor Wellness Retreat
+150,0.67,0.54,1.0,0,Business,Mid-range,7,Sunny,19,81,Sports Event,61,1,3.7,66,0.93,0.5,35,Spa Package
+151,0.94,0.5,0.66,0,Family,Luxury,7,Cloudy,36,46,Music Festival,69,1,5.0,64,0.66,0.59,65,Indoor Wellness Retreat
+152,0.87,0.05,0.22,1,Solo,Luxury,12,Cloudy,39,37,Sports Event,97,1,4.9,56,0.32,0.87,42,Spa Package
+153,0.57,0.22,0.7,1,Business,Mid-range,4,Rainy,30,1,Sports Event,57,0,4.1,11,0.16,0.08,5,Cultural Museum Visit
+154,0.17,0.99,0.34,1,Business,Luxury,9,Cloudy,40,68,Food Carnival,92,1,5.0,17,0.46,0.63,20,Spa Package
+155,0.63,0.45,0.73,1,Business,Luxury,11,Snowy,27,40,Music Festival,25,0,4.7,48,0.39,0.7,38,City Tour
+156,0.84,0.49,0.66,0,Family,Mid-range,11,Snowy,26,49,Music Festival,71,0,4.9,57,0.96,0.35,33,City Tour
+157,0.61,0.57,0.27,0,Solo,Luxury,6,Rainy,16,66,Sports Event,23,0,4.6,62,0.66,0.38,10,Cultural Museum Visit
+158,0.05,0.28,0.98,1,Solo,Luxury,11,Cloudy,36,99,Sports Event,82,0,4.1,10,0.33,0.91,96,City Tour
+159,0.01,0.17,0.15,0,Family,Budget,2,Snowy,26,86,Music Festival,80,0,3.9,98,0.68,0.51,93,City Tour
+160,0.34,0.52,0.39,0,Couple,Mid-range,3,Cloudy,17,99,Wellness Expo,64,0,4.6,20,0.81,0.45,2,Spa Package
+161,0.49,0.83,0.94,0,Business,Luxury,2,Cloudy,25,0,Sports Event,65,0,4.0,26,0.02,0.04,16,City Tour
+162,0.98,0.78,0.35,1,Solo,Luxury,4,Cloudy,27,37,Music Festival,48,0,3.8,9,0.13,0.62,52,Adventure Trek
+163,0.75,0.02,0.78,0,Business,Budget,13,Snowy,32,44,Cultural Fair,84,0,3.7,1,0.7,0.97,0,City Tour
+164,0.11,0.2,0.57,1,Business,Mid-range,9,Snowy,32,75,Music Festival,15,1,4.3,5,0.52,0.26,14,Adventure Trek
+165,0.59,0.44,1.0,0,Solo,Luxury,13,Sunny,21,0,Wellness Expo,4,1,4.0,53,0.97,0.6,72,Indoor Wellness Retreat
+166,0.66,0.68,0.68,0,Solo,Budget,8,Cloudy,18,62,Wellness Expo,84,0,3.6,99,0.89,0.56,22,City Tour
+167,0.01,0.61,0.31,0,Solo,Luxury,9,Rainy,31,39,Music Festival,37,1,4.5,0,0.97,0.73,37,Food Experience
+168,0.23,0.41,0.35,0,Business,Mid-range,14,Rainy,31,30,Sports Event,26,0,4.8,42,0.39,0.85,59,Cultural Museum Visit
+169,0.22,0.54,0.39,1,Business,Budget,4,Cloudy,18,93,Food Carnival,33,1,5.0,47,0.3,0.4,72,City Tour
+170,0.79,0.52,0.83,1,Solo,Budget,8,Snowy,32,79,Food Carnival,55,1,4.9,61,0.54,0.95,41,Adventure Trek
+171,0.7,0.42,0.52,0,Business,Luxury,10,Rainy,11,50,Food Carnival,13,0,4.0,38,0.03,0.99,5,Cultural Museum Visit
+172,0.72,0.1,0.16,0,Family,Budget,4,Snowy,17,74,Cultural Fair,43,0,4.1,28,0.07,0.53,39,City Tour
+173,0.8,0.32,0.2,0,Solo,Budget,8,Snowy,33,90,Cultural Fair,70,0,4.6,68,0.47,0.23,83,Adventure Trek
+174,0.46,0.72,0.63,0,Solo,Budget,2,Rainy,12,57,Wellness Expo,2,1,4.4,80,0.66,0.77,84,Spa Package
+175,0.37,0.63,0.0,0,Solo,Budget,2,Snowy,12,99,Cultural Fair,33,0,4.7,95,0.2,0.09,83,Food Experience
+176,0.18,0.03,0.78,1,Couple,Mid-range,7,Sunny,26,42,Sports Event,47,1,4.4,17,0.97,0.9,8,Indoor Wellness Retreat
+177,0.24,0.05,0.31,1,Solo,Budget,14,Snowy,36,55,Wellness Expo,15,0,4.2,44,0.24,0.03,69,Indoor Wellness Retreat
+178,0.69,0.01,0.97,1,Family,Mid-range,7,Sunny,17,85,Sports Event,69,0,4.5,50,0.89,0.45,68,City Tour
+179,0.16,0.59,0.32,0,Business,Budget,6,Cloudy,18,53,Wellness Expo,59,0,4.9,16,0.13,0.57,6,Adventure Trek
+180,0.41,0.72,0.75,1,Business,Budget,5,Sunny,10,56,Cultural Fair,62,1,4.2,67,0.1,0.39,14,Cultural Museum Visit
+181,0.91,0.84,0.54,1,Family,Budget,4,Cloudy,33,57,Cultural Fair,39,1,4.2,31,0.31,0.81,64,Indoor Wellness Retreat
+182,0.32,0.95,0.49,0,Business,Mid-range,6,Snowy,22,25,Cultural Fair,23,1,4.6,2,0.94,0.8,5,Adventure Trek
+183,0.96,0.73,0.09,1,Couple,Budget,11,Snowy,39,14,Sports Event,54,1,5.0,24,0.15,0.41,92,Spa Package
+184,0.08,0.23,0.2,1,Family,Luxury,6,Sunny,17,62,Cultural Fair,24,1,4.2,18,0.65,0.24,10,City Tour
+185,0.99,0.03,0.45,0,Family,Luxury,7,Snowy,26,75,Music Festival,84,1,4.7,92,0.08,0.51,12,Cultural Museum Visit
+186,0.08,0.83,0.43,0,Business,Luxury,4,Rainy,31,29,Cultural Fair,88,1,3.7,68,0.84,0.07,85,Adventure Trek
+187,0.72,0.92,0.24,0,Business,Budget,3,Cloudy,35,27,Food Carnival,12,1,4.0,96,0.03,0.7,53,Spa Package
+188,0.12,0.44,0.42,1,Family,Budget,6,Sunny,35,64,Music Festival,84,1,4.9,100,0.52,0.08,93,Food Experience
+189,0.29,0.4,0.07,0,Solo,Mid-range,10,Sunny,23,3,Music Festival,66,0,4.3,27,0.34,0.13,35,Indoor Wellness Retreat
+190,0.31,0.14,0.59,0,Business,Luxury,10,Cloudy,14,46,Sports Event,80,0,4.0,9,0.13,0.36,78,Spa Package
+191,0.15,0.55,0.65,1,Business,Luxury,9,Rainy,32,35,Food Carnival,29,1,3.7,73,0.66,0.94,73,Adventure Trek
+192,0.56,1.0,0.16,0,Couple,Luxury,12,Sunny,32,65,Wellness Expo,94,0,3.8,14,0.45,0.41,83,Adventure Trek
+193,0.96,0.14,1.0,0,Couple,Luxury,4,Rainy,37,100,Cultural Fair,6,1,4.9,23,0.02,0.36,42,Indoor Wellness Retreat
+194,0.91,0.21,0.12,1,Solo,Budget,13,Cloudy,20,5,Cultural Fair,93,1,3.7,61,0.25,0.58,49,Adventure Trek
+195,0.04,0.61,0.37,1,Business,Luxury,13,Sunny,39,58,Wellness Expo,83,0,4.1,99,0.88,0.53,97,Spa Package
+196,0.52,0.83,0.08,1,Business,Mid-range,11,Cloudy,12,39,Music Festival,70,0,4.9,29,0.71,0.59,33,Spa Package
+197,0.05,0.99,0.35,0,Business,Luxury,5,Snowy,15,88,Cultural Fair,24,0,4.1,52,0.84,0.24,97,Indoor Wellness Retreat
+198,0.66,0.77,0.13,1,Couple,Luxury,2,Cloudy,33,49,Cultural Fair,34,0,4.3,18,0.62,0.82,3,Cultural Museum Visit
+199,0.64,0.03,0.76,0,Solo,Budget,11,Rainy,28,26,Music Festival,13,1,3.8,85,0.66,0.71,82,Indoor Wellness Retreat
+200,0.91,0.81,0.93,1,Solo,Budget,12,Snowy,36,64,Sports Event,74,1,4.6,49,0.71,0.03,30,Food Experience
+201,0.53,0.94,0.41,0,Business,Budget,10,Sunny,22,18,Music Festival,28,1,4.1,35,0.86,0.93,36,City Tour
+202,0.9,0.7,0.69,1,Family,Mid-range,13,Sunny,19,38,Wellness Expo,5,0,4.9,72,0.28,0.98,36,City Tour
+203,0.93,0.07,0.59,1,Couple,Luxury,4,Cloudy,33,81,Wellness Expo,100,1,4.9,93,0.8,0.8,90,Indoor Wellness Retreat
+204,0.37,0.8,0.7,0,Business,Mid-range,2,Snowy,37,88,Music Festival,46,0,4.9,35,0.7,0.65,17,Indoor Wellness Retreat
+205,0.99,0.9,0.34,0,Solo,Budget,5,Snowy,11,93,Wellness Expo,68,1,4.0,7,0.07,0.57,0,City Tour
+206,0.95,0.4,0.2,0,Business,Budget,10,Rainy,13,43,Music Festival,25,1,4.9,57,0.91,0.57,86,Adventure Trek
+207,0.82,0.79,0.61,0,Business,Luxury,3,Sunny,20,15,Music Festival,2,0,4.1,0,0.42,0.69,11,Food Experience
+208,0.01,0.82,0.66,0,Business,Mid-range,6,Cloudy,18,41,Music Festival,35,0,4.6,99,0.4,0.46,72,Spa Package
+209,0.51,0.69,0.36,1,Family,Budget,8,Snowy,25,10,Food Carnival,67,0,4.7,5,0.03,0.68,78,Cultural Museum Visit
+210,0.7,0.31,0.48,0,Couple,Luxury,4,Snowy,22,44,Music Festival,29,1,3.8,41,0.62,0.64,47,City Tour
+211,0.8,0.61,0.19,1,Solo,Budget,13,Cloudy,38,93,Food Carnival,70,1,4.5,99,0.39,0.75,23,City Tour
+212,0.87,0.34,0.69,0,Solo,Budget,3,Cloudy,25,2,Food Carnival,52,0,4.2,60,0.08,0.89,67,City Tour
+213,0.28,0.06,0.19,1,Business,Luxury,2,Rainy,34,21,Wellness Expo,87,1,4.1,57,0.66,0.66,73,Spa Package
+214,0.32,0.45,0.06,0,Family,Mid-range,3,Cloudy,12,84,Cultural Fair,14,1,3.8,90,0.08,0.2,70,Adventure Trek
+215,0.8,0.33,0.15,0,Couple,Budget,5,Sunny,23,62,Music Festival,98,1,4.3,60,0.65,0.71,45,Adventure Trek
+216,0.89,0.45,0.85,0,Couple,Budget,10,Cloudy,32,59,Food Carnival,48,1,4.2,51,0.76,0.42,95,City Tour
+217,0.33,0.02,0.3,0,Solo,Luxury,2,Snowy,27,13,Sports Event,62,0,3.7,66,0.23,0.95,73,Food Experience
+218,0.5,0.03,0.25,0,Business,Budget,7,Rainy,38,38,Wellness Expo,72,0,5.0,79,0.58,0.31,62,Spa Package
+219,0.59,0.33,0.73,0,Family,Budget,11,Snowy,17,50,Cultural Fair,38,0,4.3,6,0.41,0.95,89,Indoor Wellness Retreat
+220,0.37,0.22,0.9,0,Business,Luxury,14,Cloudy,20,40,Food Carnival,57,0,4.5,60,0.39,0.66,12,Indoor Wellness Retreat
+221,0.28,0.41,0.17,0,Solo,Budget,7,Sunny,22,45,Wellness Expo,70,1,4.3,82,0.31,0.91,56,Indoor Wellness Retreat
+222,0.14,0.59,0.59,1,Solo,Mid-range,10,Rainy,24,56,Cultural Fair,92,1,3.8,3,0.69,0.22,97,Food Experience
+223,0.15,0.0,0.52,1,Family,Budget,3,Rainy,10,25,Cultural Fair,58,1,4.5,9,0.32,0.99,89,Food Experience
+224,0.04,0.29,0.6,0,Family,Budget,2,Snowy,31,33,Wellness Expo,7,0,3.9,24,0.01,0.9,14,Cultural Museum Visit
+225,0.04,0.08,0.29,1,Business,Budget,13,Sunny,11,72,Wellness Expo,9,0,4.2,53,0.49,0.55,72,Indoor Wellness Retreat
+226,0.25,0.52,0.31,0,Solo,Mid-range,3,Rainy,15,34,Sports Event,71,1,4.0,81,0.03,0.28,82,Adventure Trek
+227,0.85,0.46,0.35,0,Family,Budget,1,Rainy,29,1,Sports Event,90,1,3.6,26,0.09,0.33,40,Food Experience
+228,0.95,0.27,0.85,1,Family,Mid-range,7,Sunny,39,92,Sports Event,98,0,4.8,76,0.3,0.89,83,City Tour
+229,0.22,0.4,0.38,1,Family,Budget,4,Cloudy,35,84,Music Festival,0,0,4.2,93,0.7,0.46,77,City Tour
+230,0.93,0.5,0.88,0,Solo,Luxury,1,Cloudy,11,64,Cultural Fair,24,1,4.6,1,0.62,0.49,80,Spa Package
+231,0.29,0.47,0.84,1,Couple,Mid-range,3,Cloudy,39,86,Food Carnival,25,1,3.9,34,0.47,0.11,70,Adventure Trek
+232,0.24,0.32,0.87,0,Couple,Mid-range,4,Cloudy,13,16,Sports Event,58,0,4.5,4,0.93,0.32,52,Food Experience
+233,0.18,0.6,0.07,0,Solo,Mid-range,2,Rainy,11,95,Food Carnival,30,1,3.5,5,0.28,0.37,16,Indoor Wellness Retreat
+234,0.6,0.12,0.46,1,Couple,Mid-range,4,Sunny,34,16,Cultural Fair,16,1,3.9,89,0.91,0.69,37,City Tour
+235,0.8,0.02,0.49,0,Family,Budget,11,Snowy,28,11,Sports Event,64,0,3.7,69,0.69,0.05,12,Indoor Wellness Retreat
+236,0.74,0.05,0.65,0,Family,Luxury,12,Sunny,25,72,Wellness Expo,27,0,4.8,96,0.63,0.8,74,Indoor Wellness Retreat
+237,0.17,0.87,0.73,0,Family,Budget,10,Rainy,14,75,Food Carnival,38,1,4.5,94,0.13,0.08,94,Spa Package
+238,0.09,0.79,0.63,1,Family,Budget,8,Sunny,12,73,Sports Event,43,0,3.9,50,0.38,0.21,67,City Tour
+239,0.81,0.73,0.98,1,Family,Mid-range,10,Cloudy,25,80,Sports Event,76,0,5.0,60,0.43,0.19,97,Indoor Wellness Retreat
+240,0.21,0.56,0.11,1,Solo,Mid-range,3,Rainy,21,22,Food Carnival,69,0,3.6,10,0.02,0.52,17,Cultural Museum Visit
+241,0.45,0.22,0.85,0,Couple,Luxury,9,Snowy,10,60,Food Carnival,66,0,3.8,100,0.08,0.77,85,Cultural Museum Visit
+242,0.15,0.76,0.58,0,Solo,Budget,14,Sunny,37,99,Food Carnival,80,1,3.5,90,0.2,0.0,28,Food Experience
+243,0.18,0.22,0.44,0,Solo,Budget,8,Cloudy,36,67,Sports Event,18,0,4.4,10,0.9,0.46,96,Cultural Museum Visit
+244,0.31,0.09,0.72,0,Business,Luxury,9,Rainy,26,91,Wellness Expo,38,0,4.0,28,0.17,0.04,14,Spa Package
+245,0.85,0.17,0.72,0,Solo,Mid-range,2,Rainy,19,14,Wellness Expo,47,0,4.3,39,0.14,0.17,12,Cultural Museum Visit
+246,0.48,0.98,0.59,0,Couple,Luxury,3,Cloudy,15,23,Sports Event,10,1,4.9,30,0.93,0.23,14,Cultural Museum Visit
+247,0.92,0.86,0.46,0,Couple,Budget,6,Rainy,36,59,Cultural Fair,25,1,4.6,53,0.99,0.33,0,Spa Package
+248,0.1,0.65,0.51,0,Solo,Mid-range,3,Snowy,39,6,Music Festival,81,0,3.9,30,0.19,0.6,46,City Tour
+249,0.89,0.39,0.74,0,Solo,Luxury,5,Rainy,32,92,Wellness Expo,87,1,4.7,46,0.91,0.62,53,Food Experience
+250,0.76,0.26,0.48,0,Couple,Luxury,6,Cloudy,35,1,Music Festival,19,1,4.0,20,0.96,0.26,42,City Tour
+251,0.9,0.01,0.96,0,Family,Luxury,6,Snowy,29,2,Music Festival,10,0,4.6,19,0.93,0.7,9,City Tour
+252,0.43,0.24,0.65,1,Couple,Budget,14,Cloudy,14,37,Food Carnival,24,1,4.6,64,0.35,0.69,47,Indoor Wellness Retreat
+253,0.21,0.73,0.58,1,Business,Luxury,7,Snowy,28,36,Cultural Fair,54,0,4.5,41,0.9,0.15,88,Spa Package
+254,0.11,0.87,0.11,1,Solo,Budget,9,Sunny,21,3,Cultural Fair,50,1,4.6,27,0.9,0.52,58,Adventure Trek
+255,0.13,0.6,0.27,1,Solo,Mid-range,7,Sunny,19,71,Music Festival,2,0,4.9,96,0.3,0.66,99,City Tour
+256,0.94,0.31,0.23,0,Business,Mid-range,13,Snowy,33,1,Cultural Fair,29,0,4.1,46,0.56,0.02,65,Cultural Museum Visit
+257,0.63,0.3,0.48,0,Family,Budget,3,Rainy,37,9,Cultural Fair,84,0,4.5,16,0.02,0.94,52,Food Experience
+258,0.56,0.42,0.12,1,Family,Luxury,7,Rainy,30,7,Sports Event,47,0,3.9,24,0.34,0.01,39,Spa Package
+259,0.58,0.5,0.32,1,Business,Luxury,8,Cloudy,19,97,Sports Event,76,0,4.6,41,0.49,0.02,3,Indoor Wellness Retreat
+260,0.31,0.85,0.23,1,Solo,Mid-range,1,Cloudy,40,86,Food Carnival,97,1,3.8,15,0.48,0.87,30,Cultural Museum Visit
+261,0.71,0.37,0.49,1,Couple,Budget,3,Snowy,40,43,Cultural Fair,59,0,5.0,1,0.14,0.05,37,Food Experience
+262,0.09,0.21,0.71,0,Couple,Mid-range,2,Cloudy,39,11,Cultural Fair,73,1,3.7,79,0.13,0.1,57,City Tour
+263,0.74,0.22,0.35,0,Family,Luxury,1,Snowy,20,14,Wellness Expo,24,1,3.7,61,0.31,0.91,96,Food Experience
+264,0.85,0.83,0.93,0,Business,Luxury,7,Snowy,19,62,Food Carnival,62,0,4.1,52,0.97,0.16,92,Cultural Museum Visit
+265,0.28,0.23,0.09,1,Solo,Budget,14,Cloudy,23,46,Music Festival,6,1,4.6,34,0.41,0.18,26,Adventure Trek
+266,0.69,0.05,0.3,0,Couple,Mid-range,9,Rainy,31,60,Music Festival,37,1,5.0,98,0.5,0.74,19,Adventure Trek
+267,0.93,0.25,0.59,0,Couple,Luxury,2,Rainy,19,79,Cultural Fair,54,0,4.2,46,0.08,0.64,50,City Tour
+268,0.33,0.98,0.21,1,Couple,Budget,10,Cloudy,11,21,Sports Event,22,0,3.6,70,0.44,0.6,64,City Tour
+269,0.06,0.36,0.68,0,Solo,Mid-range,6,Cloudy,40,21,Sports Event,30,1,4.6,14,0.89,0.76,73,Cultural Museum Visit
+270,0.24,0.64,0.88,0,Family,Luxury,2,Cloudy,11,89,Sports Event,14,0,4.6,51,0.42,0.35,84,Indoor Wellness Retreat
+271,0.03,0.8,0.35,1,Couple,Budget,3,Rainy,14,83,Music Festival,13,0,4.7,0,0.07,0.63,10,City Tour
+272,0.87,0.87,0.27,0,Family,Budget,6,Sunny,25,1,Food Carnival,92,0,4.6,82,0.99,0.34,0,Spa Package
+273,0.75,0.29,0.44,0,Couple,Mid-range,5,Sunny,10,95,Sports Event,33,1,4.3,67,0.2,0.68,52,Cultural Museum Visit
+274,0.47,0.82,0.63,1,Solo,Budget,14,Rainy,35,55,Wellness Expo,9,0,4.2,61,0.11,0.72,52,Indoor Wellness Retreat
+275,0.6,0.35,0.28,0,Business,Mid-range,8,Rainy,22,14,Cultural Fair,41,1,3.7,27,0.65,0.25,43,City Tour
+276,0.03,0.82,0.32,0,Solo,Budget,2,Snowy,33,94,Wellness Expo,54,0,4.6,92,0.62,0.04,95,Spa Package
+277,0.74,0.66,0.02,1,Couple,Mid-range,14,Cloudy,25,88,Wellness Expo,29,1,4.2,55,0.61,0.95,43,Food Experience
+278,0.1,0.42,0.1,0,Couple,Luxury,4,Snowy,32,15,Cultural Fair,98,1,4.5,20,0.02,0.11,5,Food Experience
+279,0.97,0.91,0.94,0,Couple,Luxury,5,Cloudy,34,42,Food Carnival,51,0,4.2,31,0.42,0.92,6,Food Experience
+280,0.67,0.58,0.77,0,Business,Luxury,3,Sunny,37,72,Sports Event,38,0,5.0,83,0.24,0.02,32,Food Experience
+281,0.04,0.97,0.64,1,Business,Mid-range,11,Snowy,24,7,Sports Event,58,1,4.5,69,0.94,0.66,88,Cultural Museum Visit
+282,0.81,0.63,0.48,1,Solo,Luxury,8,Snowy,18,100,Music Festival,39,0,3.9,0,0.5,0.36,32,Indoor Wellness Retreat
+283,0.19,0.13,0.0,0,Business,Mid-range,14,Cloudy,27,17,Wellness Expo,94,0,3.6,36,0.3,0.63,8,Spa Package
+284,0.68,0.54,0.48,0,Business,Luxury,14,Snowy,18,70,Food Carnival,35,0,3.7,45,0.78,0.41,27,Cultural Museum Visit
+285,0.79,0.44,0.2,1,Solo,Luxury,7,Snowy,26,42,Cultural Fair,51,1,4.3,5,0.47,0.18,22,Adventure Trek
+286,0.57,0.59,0.55,1,Business,Budget,3,Rainy,16,48,Music Festival,34,0,3.9,5,0.27,0.01,70,Adventure Trek
+287,0.46,0.87,0.69,0,Business,Mid-range,9,Rainy,13,72,Wellness Expo,22,1,4.5,17,0.48,0.69,19,Cultural Museum Visit
+288,0.31,0.31,0.17,0,Family,Luxury,4,Rainy,32,64,Sports Event,49,0,3.6,79,0.14,0.54,98,Adventure Trek
+289,0.09,0.32,0.87,0,Couple,Budget,2,Snowy,20,7,Cultural Fair,64,1,4.2,38,0.45,0.21,13,Indoor Wellness Retreat
+290,0.71,0.76,0.56,0,Couple,Luxury,7,Snowy,33,25,Wellness Expo,3,0,4.4,69,0.6,0.33,44,Spa Package
+291,0.85,0.39,0.9,0,Business,Luxury,11,Snowy,22,75,Cultural Fair,65,0,4.8,21,0.26,0.37,11,Adventure Trek
+292,0.24,0.99,0.04,0,Business,Luxury,6,Cloudy,24,60,Sports Event,83,0,4.3,54,0.95,0.69,54,Indoor Wellness Retreat
+293,0.03,0.19,0.25,0,Business,Luxury,13,Sunny,39,30,Music Festival,22,1,3.8,81,0.55,0.72,96,Cultural Museum Visit
+294,0.89,0.57,0.64,1,Business,Mid-range,3,Rainy,24,85,Cultural Fair,35,0,4.3,50,0.7,0.02,94,Food Experience
+295,0.22,0.86,0.35,0,Couple,Luxury,1,Cloudy,24,16,Food Carnival,89,1,4.7,24,0.36,0.8,29,Cultural Museum Visit
+296,0.28,0.72,0.59,0,Business,Luxury,8,Cloudy,18,22,Wellness Expo,49,1,4.2,91,0.06,0.81,51,Indoor Wellness Retreat
+297,0.45,0.83,0.2,1,Family,Luxury,12,Snowy,22,3,Music Festival,57,0,4.7,78,0.19,0.22,96,Spa Package
+298,0.88,0.02,0.57,1,Couple,Mid-range,2,Rainy,15,63,Cultural Fair,74,1,4.2,40,0.42,0.91,18,Food Experience
+299,0.29,0.62,0.02,1,Couple,Budget,3,Rainy,21,60,Cultural Fair,23,1,4.1,91,0.04,0.71,96,City Tour
+300,0.58,0.07,0.14,1,Family,Luxury,11,Snowy,30,18,Sports Event,91,1,4.0,48,0.87,0.17,71,Indoor Wellness Retreat
+301,0.37,0.91,0.87,1,Business,Budget,1,Sunny,13,1,Wellness Expo,26,1,4.6,59,0.88,0.05,39,Food Experience
+302,0.03,0.98,0.07,1,Solo,Luxury,13,Sunny,29,74,Music Festival,6,1,4.3,10,0.57,0.55,69,Spa Package
+303,0.33,0.65,0.36,1,Business,Budget,14,Rainy,37,86,Sports Event,48,0,3.7,98,0.71,0.94,4,Food Experience
+304,0.38,0.12,0.12,0,Business,Mid-range,6,Snowy,12,51,Cultural Fair,3,1,4.2,35,0.29,1.0,97,Adventure Trek
+305,0.94,0.99,0.91,1,Solo,Mid-range,11,Cloudy,12,90,Wellness Expo,75,1,4.8,0,0.5,0.51,67,Food Experience
+306,0.75,0.13,0.67,0,Family,Mid-range,9,Rainy,18,56,Cultural Fair,41,0,4.5,99,0.81,0.99,47,City Tour
+307,0.67,0.82,0.92,0,Family,Luxury,9,Sunny,30,66,Music Festival,42,1,4.6,26,0.56,0.82,40,Adventure Trek
+308,0.14,0.32,0.62,1,Family,Budget,11,Snowy,18,12,Food Carnival,12,1,4.7,100,0.92,0.65,39,Indoor Wellness Retreat
+309,0.61,0.11,0.25,1,Family,Mid-range,14,Cloudy,13,26,Sports Event,91,1,4.9,67,0.85,0.33,50,Adventure Trek
+310,0.22,0.9,0.35,0,Business,Luxury,12,Sunny,22,1,Sports Event,53,1,5.0,72,0.99,0.65,4,Adventure Trek
+311,0.35,0.96,0.41,1,Family,Budget,13,Cloudy,16,9,Wellness Expo,48,0,4.2,30,0.48,0.9,91,Cultural Museum Visit
+312,0.45,0.66,0.65,1,Solo,Mid-range,8,Snowy,21,94,Wellness Expo,6,1,3.7,88,0.05,0.36,86,Food Experience
+313,0.42,0.38,0.83,1,Family,Mid-range,2,Sunny,39,32,Wellness Expo,46,0,4.7,47,0.59,0.12,86,City Tour
+314,0.16,0.11,0.99,0,Solo,Budget,3,Cloudy,24,73,Sports Event,70,1,4.8,18,0.79,0.74,47,Adventure Trek
+315,0.94,0.49,0.96,1,Family,Luxury,6,Rainy,15,25,Music Festival,20,0,3.5,90,0.61,0.26,22,Spa Package
+316,0.0,0.65,0.52,0,Couple,Budget,2,Sunny,14,42,Sports Event,30,1,4.9,29,0.89,0.83,53,Food Experience
+317,0.89,0.37,0.51,1,Family,Budget,1,Snowy,27,14,Sports Event,10,1,4.9,45,0.23,0.96,96,Adventure Trek
+318,0.97,0.8,0.93,1,Couple,Budget,9,Sunny,37,26,Music Festival,43,0,4.7,57,0.19,0.79,28,Food Experience
+319,0.17,0.34,0.87,0,Family,Budget,5,Sunny,17,18,Sports Event,53,1,3.6,66,0.89,0.97,28,Food Experience
+320,0.35,0.25,0.81,0,Business,Luxury,3,Rainy,13,27,Wellness Expo,7,0,4.4,65,0.03,0.13,75,Spa Package
+321,0.77,0.39,0.78,1,Couple,Luxury,5,Sunny,19,61,Sports Event,41,0,4.6,81,0.01,0.69,63,Food Experience
+322,0.15,0.89,0.66,0,Solo,Mid-range,13,Cloudy,37,58,Food Carnival,74,1,3.7,25,0.04,0.83,53,Cultural Museum Visit
+323,0.62,0.09,0.26,1,Business,Luxury,5,Cloudy,29,66,Wellness Expo,38,0,3.9,67,0.96,0.59,40,Indoor Wellness Retreat
+324,0.34,0.28,0.83,1,Family,Budget,1,Cloudy,33,2,Food Carnival,2,0,4.9,65,0.72,0.61,27,Cultural Museum Visit
+325,0.27,0.08,0.85,1,Solo,Budget,6,Rainy,36,63,Cultural Fair,32,1,4.4,20,0.21,0.98,83,City Tour
+326,0.64,0.52,0.87,1,Family,Luxury,10,Snowy,40,99,Cultural Fair,23,1,4.6,26,0.4,0.06,6,Food Experience
+327,0.13,0.37,0.17,0,Solo,Luxury,1,Snowy,29,55,Music Festival,58,1,3.7,69,0.38,0.57,84,Food Experience
+328,0.29,0.88,0.19,0,Family,Luxury,7,Sunny,10,60,Food Carnival,3,1,4.1,92,0.97,0.67,63,Adventure Trek
+329,0.07,0.55,0.43,0,Solo,Luxury,11,Snowy,35,44,Music Festival,83,1,4.1,33,0.44,0.66,39,Spa Package
+330,0.72,0.71,0.95,0,Family,Mid-range,9,Sunny,17,17,Cultural Fair,77,1,4.8,73,0.23,0.38,48,Cultural Museum Visit
+331,0.66,0.35,0.43,0,Family,Luxury,1,Snowy,32,62,Music Festival,86,1,4.6,94,0.01,0.36,14,Spa Package
+332,0.12,0.45,0.32,1,Business,Budget,7,Snowy,13,21,Sports Event,87,1,4.9,75,0.48,0.34,83,Indoor Wellness Retreat
+333,0.58,0.8,0.52,1,Business,Luxury,6,Snowy,22,97,Music Festival,66,1,4.3,59,0.95,0.32,53,Cultural Museum Visit
+334,0.24,0.59,0.6,1,Couple,Budget,12,Rainy,25,83,Cultural Fair,55,1,4.2,57,0.66,0.67,51,Indoor Wellness Retreat
+335,0.62,0.99,0.61,1,Solo,Mid-range,7,Sunny,16,14,Sports Event,100,1,4.0,43,0.61,0.7,65,Food Experience
+336,0.84,0.78,0.88,0,Family,Budget,6,Rainy,13,76,Sports Event,82,0,4.3,100,0.42,0.57,14,Food Experience
+337,0.11,0.05,0.45,1,Couple,Budget,7,Sunny,10,88,Wellness Expo,40,1,3.9,27,0.1,0.93,5,Indoor Wellness Retreat
+338,0.1,0.28,0.93,0,Solo,Luxury,3,Cloudy,39,5,Music Festival,6,0,4.7,48,0.13,0.48,60,Spa Package
+339,0.42,0.44,0.7,1,Business,Mid-range,11,Cloudy,14,23,Wellness Expo,4,0,4.8,81,0.57,0.49,15,Adventure Trek
+340,0.95,0.2,0.81,0,Couple,Mid-range,6,Cloudy,15,26,Music Festival,28,0,3.8,36,0.82,0.89,96,Adventure Trek
+341,0.87,0.78,0.57,1,Solo,Luxury,4,Rainy,40,6,Wellness Expo,60,1,4.0,49,0.78,0.36,71,Cultural Museum Visit
+342,0.66,0.13,0.79,1,Couple,Budget,12,Rainy,29,51,Music Festival,88,0,4.3,89,0.79,0.31,26,Spa Package
+343,0.34,0.3,0.56,0,Couple,Budget,14,Sunny,34,84,Music Festival,3,1,4.0,68,0.64,0.74,63,City Tour
+344,0.94,0.44,0.19,1,Family,Budget,6,Sunny,18,42,Sports Event,71,0,4.2,84,0.31,0.4,49,Indoor Wellness Retreat
+345,0.44,0.8,0.83,0,Business,Mid-range,11,Rainy,13,82,Cultural Fair,11,0,3.9,76,0.31,0.45,47,Spa Package
+346,0.22,0.66,0.2,0,Family,Budget,11,Rainy,40,27,Wellness Expo,30,0,3.7,37,0.46,0.56,35,Food Experience
+347,0.73,0.54,0.62,1,Business,Mid-range,3,Snowy,22,80,Food Carnival,25,1,4.3,8,0.05,0.93,34,Cultural Museum Visit
+348,0.31,0.32,0.61,0,Couple,Mid-range,12,Cloudy,28,91,Music Festival,20,1,4.1,34,0.32,0.49,10,City Tour
+349,0.53,0.85,0.26,0,Couple,Budget,12,Rainy,14,59,Wellness Expo,26,0,3.7,70,0.71,0.61,83,Food Experience
+350,0.09,0.31,0.15,0,Couple,Luxury,7,Snowy,25,82,Cultural Fair,22,1,3.6,78,0.94,0.71,81,Cultural Museum Visit
+351,0.39,0.9,0.13,0,Business,Luxury,7,Cloudy,17,97,Food Carnival,30,1,4.8,73,0.85,0.33,83,Adventure Trek
+352,0.19,0.19,0.01,1,Family,Mid-range,7,Snowy,12,18,Cultural Fair,16,1,3.8,13,0.91,0.29,16,Cultural Museum Visit
+353,0.2,0.33,0.56,0,Business,Luxury,5,Rainy,39,30,Sports Event,41,0,4.2,87,0.83,0.57,0,Indoor Wellness Retreat
+354,0.8,0.71,0.98,0,Family,Mid-range,3,Snowy,27,25,Sports Event,52,0,4.8,81,0.94,0.9,83,Food Experience
+355,0.19,1.0,0.57,1,Business,Mid-range,6,Rainy,19,64,Cultural Fair,66,0,4.5,83,0.58,0.49,72,Indoor Wellness Retreat
+356,0.02,0.52,0.26,1,Business,Mid-range,1,Cloudy,37,63,Wellness Expo,47,0,3.6,51,0.93,0.4,40,Food Experience
+357,0.33,0.16,0.89,0,Family,Luxury,4,Sunny,39,18,Sports Event,58,0,3.6,56,0.99,0.53,0,Adventure Trek
+358,0.42,0.95,0.45,1,Business,Budget,6,Rainy,20,65,Cultural Fair,98,1,4.2,9,0.73,0.05,99,Spa Package
+359,0.55,0.17,0.93,1,Business,Luxury,7,Snowy,20,91,Wellness Expo,44,1,4.6,83,0.4,0.66,92,Spa Package
+360,0.68,0.36,0.77,0,Family,Budget,5,Snowy,32,5,Music Festival,35,1,4.6,51,0.46,0.37,13,Cultural Museum Visit
+361,0.92,0.16,0.99,1,Family,Luxury,1,Snowy,31,11,Food Carnival,57,0,4.5,46,0.89,0.17,16,Indoor Wellness Retreat
+362,0.09,0.53,0.29,1,Business,Luxury,12,Rainy,18,82,Sports Event,28,0,4.5,85,0.65,0.03,92,Adventure Trek
+363,0.79,0.28,0.33,0,Family,Luxury,13,Sunny,36,39,Cultural Fair,79,0,4.2,31,0.04,0.0,2,Adventure Trek
+364,0.31,0.09,0.53,1,Solo,Mid-range,2,Rainy,27,39,Sports Event,77,0,3.9,2,0.12,0.88,59,Indoor Wellness Retreat
+365,0.57,0.44,0.83,1,Family,Luxury,10,Snowy,35,13,Music Festival,89,0,4.1,56,0.36,0.29,67,Food Experience
+366,0.95,0.93,0.08,1,Business,Mid-range,13,Sunny,38,2,Cultural Fair,81,0,4.2,93,0.46,0.29,49,Cultural Museum Visit
+367,0.31,0.58,0.5,1,Family,Budget,4,Rainy,27,75,Music Festival,35,0,4.8,54,0.01,0.18,91,Indoor Wellness Retreat
+368,0.76,0.52,0.2,1,Family,Mid-range,12,Cloudy,20,82,Music Festival,77,1,4.7,91,0.45,0.86,29,Spa Package
+369,0.68,0.85,0.43,0,Solo,Budget,1,Snowy,24,55,Music Festival,54,0,4.3,18,0.07,0.82,11,Cultural Museum Visit
+370,0.79,0.08,0.96,1,Family,Mid-range,7,Rainy,26,9,Wellness Expo,80,1,3.9,25,0.06,0.07,64,Cultural Museum Visit
+371,0.1,0.35,0.47,0,Couple,Luxury,14,Cloudy,25,64,Sports Event,3,1,3.9,27,0.58,0.05,79,Adventure Trek
+372,0.97,0.03,0.39,1,Family,Luxury,11,Sunny,14,84,Cultural Fair,61,1,4.2,0,0.72,0.35,68,Spa Package
+373,0.74,0.07,0.35,1,Business,Luxury,5,Cloudy,17,93,Sports Event,38,0,4.4,39,0.56,0.29,39,Food Experience
+374,0.42,0.4,0.56,1,Business,Luxury,3,Sunny,19,46,Sports Event,63,1,3.8,51,0.61,0.32,57,City Tour
+375,0.89,0.04,0.93,1,Family,Luxury,12,Rainy,34,41,Food Carnival,37,0,4.3,25,0.65,0.65,35,Spa Package
+376,0.17,0.19,0.45,0,Family,Budget,11,Snowy,19,20,Cultural Fair,23,0,4.2,79,0.16,0.2,93,City Tour
+377,0.72,0.66,0.55,0,Family,Budget,9,Sunny,11,49,Sports Event,49,0,3.5,65,0.23,0.38,11,City Tour
+378,0.1,0.53,0.11,0,Couple,Mid-range,4,Rainy,35,27,Sports Event,91,1,3.8,47,0.56,0.13,9,City Tour
+379,0.13,0.51,0.12,0,Family,Mid-range,9,Rainy,30,90,Wellness Expo,78,0,4.0,24,0.45,0.37,64,Food Experience
+380,0.52,0.04,0.51,0,Solo,Mid-range,2,Sunny,22,0,Food Carnival,16,1,3.9,46,0.44,0.82,74,City Tour
+381,0.25,0.11,0.48,1,Solo,Budget,13,Snowy,19,20,Music Festival,12,0,4.3,8,0.29,0.07,6,Food Experience
+382,0.11,0.31,0.02,0,Family,Luxury,4,Rainy,28,70,Food Carnival,83,0,3.7,76,0.73,0.12,17,City Tour
+383,0.44,0.43,0.36,0,Family,Budget,1,Cloudy,37,36,Cultural Fair,92,1,4.4,41,0.49,0.78,79,Food Experience
+384,0.24,0.04,0.99,1,Family,Luxury,14,Sunny,38,71,Cultural Fair,12,0,4.2,80,0.53,0.55,85,City Tour
+385,0.17,0.83,0.96,0,Business,Mid-range,2,Snowy,32,33,Music Festival,6,1,3.9,61,0.27,0.88,66,Indoor Wellness Retreat
+386,0.5,0.93,0.35,1,Couple,Budget,12,Rainy,36,70,Food Carnival,88,0,4.3,84,0.92,0.32,47,Adventure Trek
+387,0.84,0.45,0.26,1,Couple,Mid-range,1,Sunny,39,45,Cultural Fair,52,0,4.0,81,0.32,0.71,44,Food Experience
+388,0.63,0.3,0.66,0,Business,Mid-range,8,Snowy,30,25,Food Carnival,41,1,3.7,66,0.15,0.61,64,Spa Package
+389,0.59,0.51,0.9,0,Couple,Budget,13,Cloudy,24,88,Sports Event,30,0,4.7,96,0.0,0.47,16,Adventure Trek
+390,0.21,0.25,0.43,1,Solo,Luxury,5,Snowy,11,87,Music Festival,18,0,4.6,54,0.78,0.54,63,Food Experience
+391,0.95,0.8,0.58,1,Family,Budget,4,Sunny,31,100,Sports Event,40,0,3.6,12,0.65,0.93,3,Food Experience
+392,0.06,0.09,0.8,0,Family,Budget,11,Sunny,22,60,Music Festival,12,0,4.5,67,0.85,0.23,2,Adventure Trek
+393,0.77,0.96,0.64,1,Family,Mid-range,1,Sunny,28,77,Sports Event,78,1,4.1,51,0.86,0.14,27,Adventure Trek
+394,0.7,0.29,0.39,1,Business,Budget,13,Cloudy,31,88,Cultural Fair,56,0,4.6,91,0.8,0.44,20,Cultural Museum Visit
+395,0.53,0.2,0.78,1,Couple,Budget,9,Sunny,23,61,Food Carnival,48,1,3.9,68,0.39,0.24,85,Spa Package
+396,0.99,0.79,0.8,0,Family,Budget,14,Rainy,22,25,Wellness Expo,69,0,4.8,12,0.64,0.17,67,Spa Package
+397,0.28,0.35,0.59,1,Business,Mid-range,12,Rainy,19,48,Food Carnival,28,1,4.6,12,0.21,0.2,55,City Tour
+398,0.67,0.15,0.23,0,Family,Mid-range,3,Cloudy,23,10,Sports Event,47,0,3.7,41,0.78,0.52,55,Spa Package
+399,0.98,0.14,0.41,1,Business,Budget,11,Snowy,32,69,Music Festival,36,1,4.8,77,0.6,0.3,45,Adventure Trek
+400,0.32,0.7,0.85,1,Couple,Mid-range,4,Cloudy,10,86,Cultural Fair,83,1,4.9,87,0.73,0.15,47,Adventure Trek
+401,0.35,0.32,0.02,0,Business,Mid-range,4,Cloudy,18,27,Sports Event,74,0,3.7,34,0.74,0.35,27,City Tour
+402,0.35,0.47,0.89,1,Family,Budget,10,Rainy,36,72,Cultural Fair,65,1,4.7,41,0.78,0.87,60,Adventure Trek
+403,0.21,0.67,0.34,0,Solo,Budget,8,Rainy,22,23,Cultural Fair,64,0,4.0,99,0.16,0.4,57,Cultural Museum Visit
+404,0.77,0.55,0.13,0,Couple,Budget,9,Cloudy,35,59,Food Carnival,18,0,4.3,19,0.53,0.5,59,Cultural Museum Visit
+405,0.93,0.76,0.02,1,Business,Budget,14,Snowy,25,52,Wellness Expo,37,0,4.6,8,0.22,0.36,30,Adventure Trek
+406,0.22,0.41,0.43,0,Solo,Budget,14,Cloudy,37,33,Sports Event,95,1,4.3,10,0.89,0.65,52,City Tour
+407,0.63,0.47,0.28,0,Business,Mid-range,13,Rainy,27,10,Sports Event,12,1,3.8,80,0.59,0.26,87,Adventure Trek
+408,0.71,0.36,0.79,1,Solo,Luxury,6,Cloudy,16,50,Wellness Expo,86,0,4.3,18,0.39,0.37,5,Cultural Museum Visit
+409,0.8,0.93,0.07,0,Business,Budget,9,Sunny,26,67,Music Festival,5,1,3.7,48,0.01,0.41,0,City Tour
+410,0.05,0.07,0.12,1,Business,Luxury,14,Snowy,35,89,Sports Event,37,0,3.5,25,0.0,0.05,77,Spa Package
+411,0.32,0.88,0.43,1,Solo,Mid-range,6,Sunny,26,97,Sports Event,78,1,4.1,79,0.78,0.47,96,City Tour
+412,0.9,0.76,0.54,1,Business,Budget,4,Sunny,12,35,Sports Event,78,1,3.6,91,0.46,0.89,92,Food Experience
+413,0.53,0.42,0.41,1,Business,Budget,11,Rainy,36,4,Cultural Fair,80,0,4.2,22,0.43,0.39,90,City Tour
+414,0.04,0.94,0.57,0,Couple,Mid-range,13,Cloudy,22,68,Sports Event,43,0,4.7,77,0.89,0.73,87,Food Experience
+415,0.26,0.6,0.62,0,Couple,Budget,14,Snowy,22,31,Sports Event,45,1,3.9,51,0.12,0.74,69,City Tour
+416,0.52,0.54,0.39,0,Couple,Mid-range,13,Rainy,28,61,Sports Event,80,1,4.0,13,0.13,0.56,27,City Tour
+417,0.7,0.08,0.34,1,Family,Budget,6,Sunny,21,23,Sports Event,65,1,4.6,54,0.16,0.02,20,Spa Package
+418,0.25,0.72,0.68,0,Family,Mid-range,1,Cloudy,24,37,Food Carnival,12,0,4.3,93,0.75,0.66,96,Adventure Trek
+419,0.81,0.29,0.97,0,Solo,Luxury,9,Rainy,15,60,Music Festival,24,0,3.9,36,0.66,0.81,71,Spa Package
+420,0.2,0.14,0.74,0,Business,Mid-range,2,Cloudy,14,11,Music Festival,21,0,3.5,9,0.78,0.65,10,Cultural Museum Visit
+421,0.64,0.65,0.47,1,Business,Luxury,12,Snowy,35,57,Wellness Expo,20,0,4.6,65,0.85,0.18,67,Adventure Trek
+422,0.6,0.93,0.6,0,Family,Budget,13,Snowy,33,16,Music Festival,29,1,3.9,3,0.88,0.74,78,Food Experience
+423,0.08,0.53,0.86,1,Couple,Mid-range,12,Cloudy,16,29,Cultural Fair,23,0,3.9,82,0.98,0.0,2,Adventure Trek
+424,0.79,0.27,0.15,0,Couple,Luxury,6,Cloudy,16,45,Wellness Expo,36,1,4.9,37,0.85,0.04,41,Cultural Museum Visit
+425,0.18,0.69,0.27,0,Family,Luxury,14,Cloudy,20,82,Sports Event,64,1,4.5,14,0.06,0.65,46,Cultural Museum Visit
+426,0.78,0.03,0.31,1,Couple,Luxury,13,Snowy,33,32,Cultural Fair,55,1,4.6,60,0.53,0.62,19,Spa Package
+427,0.93,0.94,0.21,0,Business,Luxury,2,Cloudy,19,52,Cultural Fair,17,1,4.1,2,0.76,0.3,10,Adventure Trek
+428,0.25,0.6,0.53,0,Solo,Mid-range,3,Sunny,37,42,Wellness Expo,40,0,3.8,51,0.72,0.74,20,Spa Package
+429,0.08,0.8,0.54,0,Family,Luxury,7,Sunny,40,33,Food Carnival,8,0,4.1,14,0.16,0.05,45,Indoor Wellness Retreat
+430,0.46,0.48,0.01,1,Couple,Budget,1,Snowy,22,82,Wellness Expo,99,1,4.8,91,0.27,0.01,98,City Tour
+431,0.25,0.18,0.34,1,Family,Budget,12,Snowy,38,4,Cultural Fair,82,0,4.1,83,0.97,0.89,64,Indoor Wellness Retreat
+432,0.43,0.31,0.16,0,Couple,Luxury,6,Sunny,18,88,Music Festival,0,1,3.7,72,0.5,0.65,24,City Tour
+433,0.86,0.16,0.91,0,Family,Luxury,1,Sunny,22,59,Cultural Fair,61,1,4.7,51,0.41,0.49,24,Food Experience
+434,0.84,0.88,0.77,0,Business,Budget,8,Sunny,22,22,Food Carnival,4,0,3.9,87,0.69,0.8,78,Indoor Wellness Retreat
+435,0.22,0.74,0.82,1,Couple,Luxury,3,Snowy,33,50,Sports Event,48,0,3.8,43,0.85,0.8,56,Adventure Trek
+436,0.92,0.86,0.24,0,Solo,Budget,9,Sunny,21,64,Cultural Fair,59,0,4.1,64,0.84,0.92,76,Cultural Museum Visit
+437,0.29,0.98,0.71,1,Solo,Luxury,4,Snowy,34,43,Cultural Fair,2,1,3.9,20,0.16,0.86,77,Spa Package
+438,0.55,0.26,0.44,0,Couple,Mid-range,10,Snowy,12,87,Music Festival,44,0,4.5,50,0.09,0.83,68,Indoor Wellness Retreat
+439,0.82,0.74,0.02,0,Solo,Budget,5,Sunny,29,28,Wellness Expo,37,0,4.7,70,0.91,0.48,66,Indoor Wellness Retreat
+440,0.16,0.84,0.47,1,Business,Mid-range,7,Rainy,24,14,Wellness Expo,51,1,4.9,75,0.16,0.35,13,Adventure Trek
+441,0.46,0.87,0.48,1,Business,Budget,4,Sunny,19,91,Cultural Fair,64,0,3.8,37,0.04,0.51,45,Adventure Trek
+442,0.9,0.03,0.96,0,Solo,Budget,6,Snowy,20,17,Music Festival,47,1,4.7,71,0.69,0.68,29,Cultural Museum Visit
+443,0.02,0.23,0.28,0,Solo,Luxury,4,Snowy,34,35,Wellness Expo,22,1,4.5,13,0.74,0.47,71,Indoor Wellness Retreat
+444,0.4,0.29,0.11,1,Couple,Mid-range,7,Snowy,21,2,Cultural Fair,48,1,4.4,47,0.8,0.95,60,City Tour
+445,0.4,0.94,0.61,1,Solo,Mid-range,13,Sunny,18,52,Food Carnival,0,1,4.8,48,0.95,0.64,26,City Tour
+446,0.16,0.66,0.9,0,Business,Mid-range,4,Sunny,13,85,Music Festival,88,0,4.3,25,0.42,0.27,27,Spa Package
+447,0.91,0.74,0.82,0,Couple,Mid-range,6,Snowy,11,41,Food Carnival,25,0,4.3,33,0.48,0.9,45,Indoor Wellness Retreat
+448,0.58,0.49,0.42,1,Family,Luxury,8,Snowy,22,28,Food Carnival,21,0,3.9,37,0.07,0.19,44,Adventure Trek
+449,0.26,0.11,0.54,0,Solo,Budget,6,Rainy,35,64,Wellness Expo,67,1,4.6,78,0.03,0.64,74,Food Experience
+450,0.17,0.03,0.82,0,Family,Budget,7,Snowy,40,7,Music Festival,51,0,4.5,26,0.9,0.84,94,City Tour
+451,0.52,0.94,0.53,0,Family,Budget,13,Rainy,21,91,Sports Event,73,0,4.4,30,0.56,0.61,6,Cultural Museum Visit
+452,0.64,0.49,0.22,0,Solo,Luxury,1,Sunny,17,32,Wellness Expo,37,1,4.6,3,0.16,0.91,52,Food Experience
+453,0.49,0.36,0.52,0,Family,Mid-range,3,Cloudy,13,87,Music Festival,16,0,4.5,74,0.43,0.08,76,Spa Package
+454,0.21,0.21,0.34,0,Business,Luxury,2,Sunny,16,77,Sports Event,53,1,4.8,15,0.13,0.96,34,City Tour
+455,0.31,0.09,1.0,1,Solo,Budget,1,Rainy,34,92,Music Festival,1,0,4.4,60,0.28,0.02,22,Cultural Museum Visit
+456,0.96,0.71,0.12,0,Family,Budget,2,Snowy,33,17,Cultural Fair,48,1,4.8,18,0.04,0.69,10,Food Experience
+457,0.17,0.89,0.97,1,Family,Luxury,10,Sunny,32,34,Cultural Fair,86,1,4.3,33,0.44,0.51,57,Cultural Museum Visit
+458,0.35,0.71,0.28,1,Solo,Luxury,3,Snowy,30,13,Food Carnival,41,0,3.7,23,0.16,1.0,75,Spa Package
+459,0.63,0.56,0.12,1,Solo,Budget,2,Sunny,34,17,Cultural Fair,5,0,4.2,79,0.14,0.1,44,Cultural Museum Visit
+460,0.46,0.53,0.91,1,Family,Mid-range,1,Sunny,29,62,Music Festival,58,1,4.0,22,0.16,0.72,79,City Tour
+461,0.42,0.55,0.75,0,Family,Mid-range,3,Cloudy,13,11,Sports Event,18,1,4.5,9,0.76,0.84,74,Food Experience
+462,0.19,0.57,0.13,0,Couple,Budget,1,Snowy,18,79,Wellness Expo,92,1,4.2,69,0.1,0.73,17,Indoor Wellness Retreat
+463,0.15,0.28,0.91,0,Couple,Budget,11,Sunny,26,20,Wellness Expo,55,1,4.5,100,0.89,0.62,66,Adventure Trek
+464,0.79,0.44,0.07,0,Solo,Luxury,9,Cloudy,23,29,Music Festival,92,0,4.0,6,0.32,0.6,99,Cultural Museum Visit
+465,0.14,0.91,0.13,0,Family,Luxury,5,Cloudy,31,18,Food Carnival,13,1,4.0,77,0.94,0.51,84,Indoor Wellness Retreat
+466,0.67,0.58,0.28,0,Couple,Budget,4,Snowy,22,43,Music Festival,54,0,4.9,52,0.23,0.06,17,Spa Package
+467,0.61,0.81,0.23,1,Solo,Luxury,4,Sunny,18,8,Music Festival,7,1,4.3,95,0.89,0.43,33,Adventure Trek
+468,0.61,0.85,0.12,0,Family,Budget,12,Rainy,34,44,Food Carnival,84,0,3.6,82,0.19,0.2,64,Cultural Museum Visit
+469,0.19,0.82,0.69,1,Family,Luxury,9,Cloudy,17,28,Sports Event,0,0,3.7,94,0.18,0.26,37,Food Experience
+470,0.9,0.17,0.89,1,Solo,Budget,6,Sunny,31,30,Wellness Expo,47,1,3.9,40,0.2,0.16,93,City Tour
+471,0.6,0.75,0.15,0,Solo,Budget,10,Rainy,40,16,Food Carnival,41,0,4.1,68,0.77,0.89,58,Cultural Museum Visit
+472,0.28,0.34,0.04,0,Business,Mid-range,11,Snowy,18,30,Sports Event,60,1,4.6,21,0.35,0.71,66,Food Experience
+473,0.28,0.97,0.49,0,Couple,Mid-range,5,Snowy,18,29,Sports Event,98,0,4.5,91,0.73,0.18,71,City Tour
+474,0.66,0.82,0.65,0,Couple,Mid-range,1,Snowy,12,68,Cultural Fair,71,0,4.4,13,0.3,0.6,31,Spa Package
+475,0.05,0.94,0.56,0,Solo,Mid-range,13,Rainy,18,68,Music Festival,67,0,3.8,88,0.34,0.43,76,Spa Package
+476,0.04,0.68,0.41,1,Business,Luxury,6,Snowy,40,91,Wellness Expo,64,1,4.1,51,0.51,0.84,40,Adventure Trek
+477,0.23,0.47,0.41,1,Couple,Budget,11,Rainy,34,25,Food Carnival,88,0,4.5,17,0.02,0.75,21,Spa Package
+478,0.06,0.08,0.52,1,Family,Budget,7,Rainy,30,49,Cultural Fair,52,1,3.9,73,0.2,1.0,64,Food Experience
+479,0.3,0.91,0.82,0,Couple,Mid-range,3,Snowy,17,87,Food Carnival,19,0,4.2,85,0.12,0.2,77,Spa Package
+480,0.06,0.25,0.98,1,Business,Budget,5,Cloudy,25,28,Cultural Fair,80,0,4.3,42,0.48,0.92,94,Indoor Wellness Retreat
+481,0.86,0.89,0.87,0,Family,Budget,1,Snowy,39,59,Music Festival,2,1,3.6,90,0.85,0.85,72,City Tour
+482,0.72,0.87,0.5,1,Couple,Luxury,7,Sunny,10,46,Wellness Expo,69,0,4.4,75,0.05,0.48,60,City Tour
+483,0.13,0.56,0.86,1,Couple,Budget,5,Sunny,15,41,Sports Event,79,0,3.6,7,0.86,0.14,91,Adventure Trek
+484,0.86,0.62,0.57,0,Solo,Mid-range,5,Rainy,34,12,Wellness Expo,51,0,3.8,9,0.25,0.72,31,Spa Package
+485,0.67,0.36,0.53,1,Solo,Budget,7,Cloudy,39,30,Music Festival,54,0,4.7,23,0.89,0.98,8,Cultural Museum Visit
+486,0.18,0.74,0.71,1,Couple,Mid-range,12,Snowy,39,92,Sports Event,7,0,4.6,15,0.51,0.07,6,Food Experience
+487,0.92,0.34,0.85,1,Couple,Budget,1,Sunny,22,5,Food Carnival,78,1,3.8,81,0.39,0.68,10,Indoor Wellness Retreat
+488,0.17,0.47,0.2,1,Business,Luxury,2,Rainy,17,29,Sports Event,65,0,3.7,76,0.24,0.96,10,City Tour
+489,0.06,0.78,0.41,0,Solo,Budget,3,Snowy,35,47,Wellness Expo,5,1,4.9,18,0.65,0.36,71,City Tour
+490,0.22,0.55,0.98,0,Business,Luxury,11,Rainy,13,24,Food Carnival,35,1,4.2,84,0.4,0.26,68,Food Experience
+491,0.51,0.8,0.46,1,Couple,Luxury,8,Sunny,33,95,Cultural Fair,33,0,4.8,60,0.19,0.94,69,Spa Package
+492,0.06,0.58,0.42,1,Solo,Mid-range,10,Sunny,22,90,Cultural Fair,63,0,3.9,31,0.37,0.94,52,City Tour
+493,0.72,0.69,0.88,0,Business,Mid-range,9,Cloudy,12,14,Sports Event,86,0,4.7,70,0.64,0.4,37,City Tour
+494,0.12,0.09,0.9,0,Solo,Budget,14,Sunny,22,83,Cultural Fair,96,0,4.7,61,0.48,0.53,12,Indoor Wellness Retreat
+495,0.63,0.41,0.92,0,Couple,Mid-range,2,Sunny,20,90,Cultural Fair,27,1,4.1,84,0.02,0.83,22,Spa Package
+496,0.41,0.72,0.37,1,Family,Budget,9,Sunny,11,98,Music Festival,47,0,4.0,33,0.63,0.35,16,Adventure Trek
+497,0.86,0.39,0.55,0,Business,Mid-range,6,Snowy,21,17,Cultural Fair,93,1,3.7,72,0.47,0.76,45,Spa Package
+498,0.33,0.6,0.06,1,Family,Budget,14,Rainy,25,37,Music Festival,82,1,3.6,93,0.85,0.1,45,Indoor Wellness Retreat
+499,0.76,0.57,0.42,0,Couple,Budget,7,Rainy,20,8,Music Festival,37,0,3.8,15,0.22,0.89,0,Food Experience
+500,0.89,0.2,0.33,1,Couple,Mid-range,4,Cloudy,10,78,Food Carnival,40,0,3.9,42,0.5,0.53,65,Spa Package
+501,0.82,0.33,0.38,1,Family,Luxury,9,Cloudy,24,97,Wellness Expo,83,0,3.9,62,0.75,0.76,72,Indoor Wellness Retreat
+502,0.82,0.58,0.18,0,Couple,Budget,5,Snowy,38,26,Cultural Fair,28,1,5.0,9,0.02,0.22,12,City Tour
+503,0.67,0.3,0.75,1,Couple,Mid-range,12,Snowy,26,24,Food Carnival,58,1,4.3,71,0.23,0.15,98,Spa Package
+504,0.02,0.12,0.42,0,Solo,Luxury,14,Rainy,27,56,Sports Event,66,0,4.8,63,0.44,0.64,81,Spa Package
+505,0.91,0.5,0.51,1,Couple,Mid-range,4,Rainy,21,100,Food Carnival,56,0,4.8,50,0.38,1.0,89,Spa Package
+506,0.79,1.0,0.91,0,Couple,Mid-range,1,Cloudy,16,96,Food Carnival,97,0,3.6,10,0.64,0.93,14,City Tour
+507,0.69,0.99,0.08,1,Business,Mid-range,7,Sunny,14,63,Music Festival,63,1,4.3,27,0.95,0.24,37,City Tour
+508,0.92,0.62,0.39,0,Family,Budget,3,Snowy,32,33,Sports Event,44,0,3.7,52,1.0,0.47,38,City Tour
+509,0.34,0.24,0.79,0,Business,Luxury,10,Rainy,31,6,Cultural Fair,34,1,4.2,99,0.21,0.91,49,City Tour
+510,0.86,0.49,0.29,0,Business,Budget,1,Snowy,25,24,Music Festival,54,1,4.6,89,0.22,0.0,72,City Tour
+511,0.18,1.0,1.0,0,Business,Budget,9,Snowy,27,90,Food Carnival,19,1,4.3,67,0.29,0.87,90,City Tour
+512,0.13,0.7,0.92,0,Couple,Luxury,7,Sunny,22,51,Wellness Expo,41,0,4.0,16,0.37,0.51,38,Cultural Museum Visit
+513,0.89,0.99,0.01,1,Couple,Mid-range,4,Sunny,14,100,Food Carnival,62,0,4.3,39,0.89,0.68,0,Indoor Wellness Retreat
+514,0.88,0.78,0.46,0,Business,Luxury,8,Rainy,34,39,Sports Event,24,1,4.0,26,0.66,0.12,1,Cultural Museum Visit
+515,1.0,0.39,0.51,1,Solo,Budget,5,Cloudy,29,82,Wellness Expo,12,1,4.8,78,0.26,0.45,14,Cultural Museum Visit
+516,0.71,0.22,0.21,0,Family,Budget,14,Rainy,30,99,Cultural Fair,79,1,4.4,94,0.4,0.49,21,Cultural Museum Visit
+517,0.62,0.88,0.7,1,Solo,Luxury,8,Rainy,39,22,Wellness Expo,95,0,4.1,38,0.91,0.64,71,Food Experience
+518,0.73,0.99,0.46,0,Couple,Luxury,11,Sunny,25,58,Sports Event,63,0,4.8,12,0.48,0.15,60,Indoor Wellness Retreat
+519,0.47,0.66,0.29,0,Solo,Mid-range,4,Snowy,28,89,Sports Event,71,0,4.0,8,0.61,0.57,94,Cultural Museum Visit
+520,0.82,0.23,0.27,0,Solo,Mid-range,11,Sunny,25,66,Food Carnival,23,0,4.1,75,0.4,0.47,11,Cultural Museum Visit
+521,0.2,0.91,0.75,0,Business,Mid-range,7,Snowy,14,82,Sports Event,63,0,4.0,11,0.62,0.51,13,Indoor Wellness Retreat
+522,0.03,0.64,0.56,0,Business,Luxury,3,Sunny,16,50,Wellness Expo,77,1,4.4,56,0.76,0.7,78,Indoor Wellness Retreat
+523,0.24,0.7,0.3,1,Business,Luxury,3,Sunny,25,44,Music Festival,27,1,4.9,33,0.65,0.81,79,City Tour
+524,0.06,0.64,0.85,0,Couple,Luxury,14,Snowy,23,22,Wellness Expo,62,0,4.0,61,0.29,0.33,12,Cultural Museum Visit
+525,0.53,0.97,0.23,0,Family,Budget,12,Snowy,19,15,Sports Event,72,0,4.2,82,0.76,0.07,80,City Tour
+526,0.25,0.45,0.23,0,Family,Luxury,12,Sunny,22,18,Cultural Fair,45,0,4.9,79,0.43,0.09,95,Indoor Wellness Retreat
+527,0.23,0.6,0.68,1,Family,Budget,11,Cloudy,26,14,Sports Event,99,0,4.8,7,0.26,0.04,17,Adventure Trek
+528,0.35,0.63,0.47,0,Solo,Luxury,7,Snowy,31,18,Sports Event,13,1,4.9,66,0.12,0.29,79,Spa Package
+529,0.5,0.45,0.77,1,Family,Mid-range,8,Rainy,25,0,Sports Event,91,1,4.0,8,0.72,0.21,25,Food Experience
+530,0.87,0.74,0.91,1,Family,Budget,7,Sunny,38,83,Food Carnival,5,1,4.8,20,0.56,0.88,20,Cultural Museum Visit
+531,0.14,0.02,0.48,0,Business,Luxury,7,Sunny,33,40,Sports Event,28,0,4.5,26,0.29,0.19,35,Spa Package
+532,0.02,0.2,0.19,0,Business,Budget,9,Cloudy,39,66,Wellness Expo,53,1,3.9,21,0.78,0.89,37,Food Experience
+533,0.66,0.61,0.49,0,Solo,Budget,8,Snowy,40,98,Cultural Fair,38,1,5.0,95,0.58,0.02,6,Food Experience
+534,0.97,0.38,0.99,0,Family,Mid-range,14,Sunny,40,63,Cultural Fair,54,1,4.0,25,0.96,0.65,54,Food Experience
+535,0.26,0.07,0.4,0,Business,Luxury,13,Snowy,40,38,Sports Event,17,1,4.0,96,0.12,0.5,75,Adventure Trek
+536,0.68,0.64,0.26,0,Couple,Budget,6,Cloudy,30,67,Sports Event,60,0,4.0,93,0.12,0.99,85,Cultural Museum Visit
+537,0.38,0.72,0.59,0,Family,Mid-range,10,Sunny,37,99,Music Festival,26,0,4.3,85,0.58,0.32,18,Spa Package
+538,0.03,0.31,0.06,0,Solo,Mid-range,12,Rainy,26,48,Wellness Expo,65,0,3.6,8,0.55,0.82,66,Indoor Wellness Retreat
+539,0.6,0.74,0.01,1,Business,Luxury,8,Rainy,34,67,Wellness Expo,61,1,4.3,13,0.97,0.34,90,Cultural Museum Visit
+540,0.58,0.19,0.28,1,Family,Luxury,8,Cloudy,22,51,Sports Event,57,0,3.6,70,0.98,0.91,13,Adventure Trek
+541,0.21,0.18,0.2,0,Solo,Mid-range,4,Rainy,32,42,Sports Event,2,1,3.8,81,0.53,0.59,56,Food Experience
+542,0.4,0.33,0.28,1,Solo,Mid-range,9,Sunny,26,75,Food Carnival,6,0,4.9,54,0.73,0.65,30,Indoor Wellness Retreat
+543,0.66,0.44,0.66,1,Business,Luxury,7,Rainy,29,76,Cultural Fair,83,1,4.8,31,0.03,0.51,6,Adventure Trek
+544,0.61,0.37,0.61,1,Family,Mid-range,12,Cloudy,29,0,Music Festival,67,0,4.9,6,0.24,0.77,60,Cultural Museum Visit
+545,0.46,0.23,0.45,0,Business,Mid-range,2,Sunny,31,84,Music Festival,46,0,3.8,38,0.79,0.76,75,City Tour
+546,0.1,0.91,0.12,1,Family,Budget,5,Rainy,32,97,Food Carnival,3,0,4.0,65,0.19,0.19,10,Spa Package
+547,0.97,0.22,0.29,1,Business,Luxury,2,Snowy,22,78,Food Carnival,36,1,5.0,100,0.25,0.52,84,City Tour
+548,0.92,0.24,0.85,0,Solo,Luxury,5,Snowy,13,71,Music Festival,16,1,4.9,44,0.23,0.55,48,Spa Package
+549,0.52,0.58,0.85,0,Solo,Mid-range,11,Sunny,12,21,Sports Event,96,0,3.9,85,0.75,0.45,50,Cultural Museum Visit
+550,0.65,0.77,0.6,0,Business,Luxury,5,Cloudy,28,78,Food Carnival,91,0,4.5,8,0.37,0.31,86,Food Experience
+551,0.24,0.74,0.5,0,Business,Mid-range,10,Sunny,18,62,Music Festival,13,0,4.8,3,0.26,0.56,81,City Tour
+552,0.41,0.89,0.42,0,Family,Luxury,5,Cloudy,29,53,Cultural Fair,92,0,4.0,20,0.01,0.84,86,City Tour
+553,0.18,0.17,0.68,0,Business,Luxury,7,Snowy,16,83,Wellness Expo,65,0,3.6,12,0.08,0.5,60,Food Experience
+554,0.87,0.09,0.86,0,Business,Budget,5,Snowy,12,98,Food Carnival,30,0,4.2,51,0.43,0.19,83,Spa Package
+555,0.27,0.34,0.57,1,Solo,Budget,3,Snowy,11,87,Sports Event,23,1,5.0,52,0.47,0.15,55,Food Experience
+556,0.76,0.35,0.28,1,Couple,Luxury,10,Sunny,10,51,Music Festival,52,0,3.6,58,0.86,0.45,88,Spa Package
+557,0.33,0.41,0.33,1,Solo,Mid-range,4,Cloudy,15,31,Cultural Fair,17,1,4.0,56,0.73,0.73,70,Cultural Museum Visit
+558,0.62,0.79,0.19,0,Solo,Mid-range,12,Sunny,14,56,Food Carnival,51,1,4.8,53,0.11,0.29,6,Food Experience
+559,0.78,0.41,0.93,1,Couple,Budget,1,Cloudy,13,19,Cultural Fair,31,0,4.3,20,0.8,0.25,93,Spa Package
+560,0.35,0.77,0.0,0,Couple,Mid-range,12,Rainy,20,45,Music Festival,37,1,3.8,15,0.35,0.84,38,Food Experience
+561,0.81,0.76,0.33,0,Solo,Luxury,4,Cloudy,17,0,Sports Event,16,0,4.8,77,0.02,0.86,96,City Tour
+562,0.28,0.06,0.86,1,Family,Mid-range,6,Snowy,19,12,Music Festival,18,0,3.8,13,0.91,0.89,80,Adventure Trek
+563,0.76,0.67,0.58,1,Business,Mid-range,1,Rainy,40,58,Cultural Fair,96,1,4.1,68,0.76,0.4,1,Cultural Museum Visit
+564,0.97,0.53,0.54,1,Business,Luxury,1,Cloudy,26,22,Sports Event,75,1,3.8,18,0.91,0.91,23,Food Experience
+565,0.65,0.28,0.35,1,Solo,Budget,7,Cloudy,32,18,Wellness Expo,77,1,3.5,38,0.29,0.39,90,Adventure Trek
+566,0.69,1.0,0.7,0,Business,Luxury,8,Rainy,25,86,Cultural Fair,12,0,4.0,91,0.73,0.91,56,Cultural Museum Visit
+567,0.82,0.55,0.11,0,Solo,Luxury,14,Cloudy,20,86,Food Carnival,90,0,4.3,18,0.23,0.37,62,Adventure Trek
+568,0.35,0.56,0.78,1,Couple,Budget,3,Rainy,19,20,Music Festival,22,1,3.7,93,0.09,0.01,8,Adventure Trek
+569,0.05,0.85,0.42,0,Solo,Mid-range,9,Snowy,33,39,Cultural Fair,45,1,4.5,65,0.96,0.18,14,Indoor Wellness Retreat
+570,0.38,0.88,0.9,1,Family,Mid-range,7,Snowy,17,9,Wellness Expo,32,0,4.1,76,0.51,0.5,68,Spa Package
+571,0.68,0.3,0.76,1,Business,Luxury,5,Cloudy,36,44,Wellness Expo,18,1,4.1,97,0.61,0.13,64,Indoor Wellness Retreat
+572,0.08,0.41,0.35,1,Family,Luxury,10,Rainy,34,50,Music Festival,74,1,3.8,95,0.29,0.28,16,Spa Package
+573,0.47,0.16,0.22,1,Solo,Budget,1,Sunny,25,7,Music Festival,34,1,4.8,14,0.55,0.98,81,Indoor Wellness Retreat
+574,0.47,0.23,0.92,1,Family,Budget,9,Sunny,38,84,Wellness Expo,38,1,4.4,38,0.82,0.11,71,Adventure Trek
+575,0.27,0.95,0.26,1,Business,Mid-range,12,Rainy,20,67,Sports Event,81,0,5.0,54,0.51,0.78,2,City Tour
+576,0.16,0.84,0.98,1,Solo,Mid-range,5,Sunny,16,62,Wellness Expo,41,0,4.4,88,0.55,0.73,95,Adventure Trek
+577,0.07,0.85,0.13,0,Couple,Mid-range,8,Rainy,39,24,Music Festival,57,0,4.8,64,0.88,0.08,1,Adventure Trek
+578,0.58,0.24,0.48,0,Couple,Budget,6,Cloudy,19,48,Wellness Expo,38,1,3.8,78,0.03,0.58,43,Food Experience
+579,0.48,0.84,0.97,1,Business,Luxury,13,Rainy,21,89,Food Carnival,56,1,4.2,42,0.68,0.23,62,City Tour
+580,0.33,0.69,0.41,0,Couple,Budget,9,Snowy,33,2,Cultural Fair,3,1,4.0,82,0.67,0.01,78,Food Experience
+581,0.38,0.13,0.8,0,Couple,Budget,6,Cloudy,39,88,Cultural Fair,75,1,3.7,44,0.59,0.79,28,Indoor Wellness Retreat
+582,0.95,0.85,0.8,0,Solo,Luxury,14,Cloudy,21,44,Sports Event,31,0,3.8,52,0.56,0.04,46,Indoor Wellness Retreat
+583,0.16,0.76,0.95,1,Solo,Budget,7,Rainy,18,71,Sports Event,100,1,4.6,23,0.8,0.55,94,Cultural Museum Visit
+584,0.62,0.95,0.78,1,Solo,Luxury,14,Sunny,13,6,Music Festival,50,1,4.5,89,0.45,0.59,23,Spa Package
+585,0.16,0.76,0.57,1,Solo,Luxury,2,Sunny,39,15,Wellness Expo,86,0,3.6,7,0.79,0.41,8,Adventure Trek
+586,0.99,0.32,0.24,1,Couple,Luxury,5,Rainy,28,40,Wellness Expo,26,1,3.8,11,0.2,0.19,74,Cultural Museum Visit
+587,1.0,0.54,0.67,1,Solo,Mid-range,6,Sunny,33,79,Wellness Expo,31,1,4.3,0,0.94,0.64,83,City Tour
+588,0.34,0.42,0.28,0,Business,Budget,7,Snowy,37,2,Sports Event,22,1,4.2,89,0.08,0.21,49,Cultural Museum Visit
+589,0.56,0.33,0.58,1,Business,Mid-range,7,Cloudy,37,18,Wellness Expo,59,1,4.5,62,0.76,0.27,73,Adventure Trek
+590,0.53,0.07,0.77,0,Solo,Mid-range,5,Snowy,27,19,Food Carnival,34,1,4.5,89,0.92,0.37,95,Indoor Wellness Retreat
+591,0.39,0.15,0.48,1,Couple,Mid-range,11,Sunny,34,82,Cultural Fair,63,0,4.8,47,0.74,0.48,18,Spa Package
+592,0.59,0.15,0.44,1,Business,Budget,2,Sunny,29,32,Food Carnival,71,0,4.2,51,0.22,0.16,4,Indoor Wellness Retreat
+593,0.49,0.47,0.9,0,Couple,Budget,13,Cloudy,11,59,Music Festival,61,1,4.2,25,0.27,0.68,4,Cultural Museum Visit
+594,0.36,0.96,0.6,0,Family,Luxury,12,Snowy,25,40,Cultural Fair,2,1,3.7,67,0.84,0.02,34,Spa Package
+595,0.87,0.94,0.07,1,Solo,Mid-range,7,Sunny,20,63,Cultural Fair,44,0,3.8,22,0.48,0.3,34,Food Experience
+596,0.96,0.32,0.58,0,Business,Mid-range,2,Sunny,14,5,Wellness Expo,89,0,3.6,80,0.1,0.0,86,Indoor Wellness Retreat
+597,0.87,0.38,0.03,0,Business,Budget,11,Sunny,40,86,Wellness Expo,0,1,4.6,80,0.11,0.85,29,Cultural Museum Visit
+598,0.68,0.95,0.67,0,Family,Mid-range,1,Cloudy,33,97,Wellness Expo,9,0,3.9,31,0.85,0.44,44,Spa Package
+599,0.16,0.61,0.54,1,Couple,Budget,11,Sunny,27,99,Music Festival,40,0,4.1,41,0.17,0.44,31,Indoor Wellness Retreat
+600,0.04,0.03,0.56,1,Business,Mid-range,1,Cloudy,10,70,Cultural Fair,44,1,4.9,49,0.85,0.73,16,Food Experience
+601,0.1,0.96,0.76,1,Solo,Luxury,7,Cloudy,25,62,Sports Event,62,0,4.3,86,0.61,0.1,95,Cultural Museum Visit
+602,0.56,0.78,0.06,1,Business,Luxury,12,Rainy,35,16,Sports Event,27,0,4.2,48,0.75,0.93,5,Food Experience
+603,0.94,0.55,0.05,0,Solo,Mid-range,2,Snowy,10,62,Wellness Expo,55,1,4.3,31,0.91,0.38,72,Cultural Museum Visit
+604,0.64,0.73,0.66,0,Business,Budget,6,Cloudy,34,0,Cultural Fair,4,1,4.9,83,0.04,0.79,56,Indoor Wellness Retreat
+605,0.84,0.89,0.1,1,Couple,Luxury,2,Cloudy,36,32,Food Carnival,82,0,3.5,52,0.59,0.36,6,Spa Package
+606,0.14,0.43,0.24,1,Couple,Mid-range,2,Sunny,19,46,Wellness Expo,81,1,4.7,95,0.46,0.47,63,City Tour
+607,0.75,0.81,0.0,1,Couple,Mid-range,10,Rainy,23,11,Sports Event,92,1,4.0,35,0.23,0.81,19,Indoor Wellness Retreat
+608,0.18,0.23,0.44,0,Solo,Budget,1,Rainy,39,95,Cultural Fair,62,1,4.0,70,0.75,0.5,70,Food Experience
+609,0.99,0.68,0.91,0,Couple,Mid-range,4,Rainy,40,98,Wellness Expo,15,1,4.2,40,0.26,0.08,20,City Tour
+610,0.43,0.93,0.91,0,Solo,Luxury,7,Cloudy,14,2,Cultural Fair,41,1,4.3,66,0.96,0.05,54,Cultural Museum Visit
+611,0.75,0.25,0.74,1,Couple,Budget,10,Snowy,14,27,Music Festival,8,1,4.8,46,0.14,0.72,80,Cultural Museum Visit
+612,0.38,0.65,0.98,0,Family,Budget,12,Rainy,27,40,Cultural Fair,77,0,3.7,54,0.1,0.11,77,Cultural Museum Visit
+613,0.63,0.96,0.42,0,Solo,Luxury,12,Sunny,29,10,Food Carnival,57,0,3.8,36,0.38,0.27,33,Indoor Wellness Retreat
+614,0.26,0.32,0.12,0,Solo,Budget,3,Sunny,30,85,Sports Event,69,1,4.8,22,0.89,0.54,8,Cultural Museum Visit
+615,0.75,0.18,0.89,0,Couple,Budget,6,Sunny,32,78,Cultural Fair,91,0,3.6,52,0.03,0.59,1,Adventure Trek
+616,0.88,0.86,0.9,0,Family,Luxury,11,Cloudy,14,95,Cultural Fair,18,0,5.0,34,0.58,0.42,99,City Tour
+617,0.1,0.9,0.46,1,Business,Mid-range,5,Cloudy,30,39,Wellness Expo,39,1,4.2,25,0.19,0.31,68,Adventure Trek
+618,0.9,0.52,0.08,1,Business,Mid-range,9,Snowy,38,69,Music Festival,76,1,4.9,45,0.53,0.07,82,Spa Package
+619,0.06,0.2,0.36,1,Family,Mid-range,2,Sunny,39,84,Wellness Expo,42,1,4.3,33,0.57,0.92,42,Indoor Wellness Retreat
+620,0.59,0.99,0.51,0,Family,Luxury,8,Sunny,10,52,Cultural Fair,16,1,3.8,65,0.35,0.43,70,Food Experience
+621,0.24,0.74,0.39,0,Family,Luxury,11,Cloudy,25,62,Food Carnival,69,0,4.8,40,0.46,0.98,75,City Tour
+622,0.64,0.26,0.46,1,Couple,Budget,6,Snowy,13,18,Food Carnival,94,0,3.9,16,0.62,0.19,28,Indoor Wellness Retreat
+623,0.85,0.14,0.21,0,Couple,Luxury,14,Sunny,14,8,Sports Event,49,0,4.2,21,0.65,0.6,32,Food Experience
+624,0.25,0.79,0.49,0,Couple,Mid-range,12,Cloudy,19,1,Wellness Expo,3,0,5.0,99,0.69,0.66,4,Cultural Museum Visit
+625,0.59,0.82,0.45,1,Family,Mid-range,14,Snowy,36,37,Sports Event,21,0,4.5,9,0.47,0.06,31,Adventure Trek
+626,0.11,0.76,0.31,1,Couple,Budget,14,Rainy,25,29,Sports Event,34,1,3.7,8,0.63,0.49,1,Food Experience
+627,0.42,0.78,0.0,1,Solo,Luxury,7,Cloudy,13,70,Music Festival,93,0,4.3,88,0.49,0.97,9,Indoor Wellness Retreat
+628,0.1,0.96,0.95,0,Family,Mid-range,2,Sunny,27,12,Music Festival,29,1,3.8,1,0.86,0.7,88,Indoor Wellness Retreat
+629,0.13,0.05,0.86,1,Solo,Luxury,1,Snowy,24,93,Cultural Fair,71,0,4.7,48,0.27,0.7,3,Indoor Wellness Retreat
+630,0.09,0.48,0.18,1,Couple,Mid-range,2,Snowy,15,60,Wellness Expo,68,0,4.7,26,0.45,0.29,95,Adventure Trek
+631,0.75,0.69,0.75,0,Business,Mid-range,14,Cloudy,33,51,Food Carnival,94,1,4.8,59,0.55,0.88,46,Cultural Museum Visit
+632,0.43,0.14,0.39,0,Couple,Budget,6,Cloudy,33,76,Music Festival,64,1,3.8,26,0.15,0.58,60,Spa Package
+633,0.37,0.2,0.63,0,Couple,Budget,2,Rainy,15,88,Wellness Expo,14,0,3.8,6,0.14,0.06,41,City Tour
+634,0.6,0.04,0.91,0,Family,Budget,11,Rainy,25,87,Cultural Fair,30,1,4.7,5,0.03,0.46,23,Spa Package
+635,0.65,0.94,0.93,0,Family,Luxury,8,Sunny,20,0,Music Festival,71,1,4.7,24,0.52,0.47,94,Food Experience
+636,0.02,0.98,0.86,0,Couple,Luxury,10,Rainy,29,0,Wellness Expo,56,1,4.0,83,0.61,0.39,20,City Tour
+637,0.35,0.8,0.25,1,Solo,Mid-range,13,Sunny,15,100,Sports Event,24,1,4.9,90,0.52,0.28,44,Indoor Wellness Retreat
+638,0.56,0.28,0.53,1,Solo,Luxury,4,Snowy,27,19,Music Festival,70,0,3.9,24,0.31,0.28,89,Adventure Trek
+639,0.08,0.15,0.42,1,Business,Budget,7,Cloudy,29,55,Cultural Fair,81,1,4.5,11,0.59,0.43,85,Cultural Museum Visit
+640,0.41,0.29,0.01,0,Family,Luxury,13,Cloudy,17,87,Music Festival,9,0,4.5,7,0.93,0.92,97,Spa Package
+641,0.96,0.66,0.78,0,Solo,Mid-range,13,Snowy,32,73,Sports Event,55,1,4.8,54,0.8,0.06,33,Food Experience
+642,0.66,0.48,0.03,1,Business,Mid-range,12,Rainy,28,8,Cultural Fair,44,1,4.3,8,0.94,0.58,33,Indoor Wellness Retreat
+643,0.5,0.26,0.53,0,Solo,Budget,8,Cloudy,39,23,Cultural Fair,82,0,4.3,29,0.8,0.67,25,Adventure Trek
+644,0.68,0.11,0.2,0,Couple,Mid-range,2,Rainy,27,43,Cultural Fair,28,1,4.5,63,0.03,0.8,89,Food Experience
+645,0.95,0.5,0.14,0,Solo,Budget,6,Cloudy,25,63,Sports Event,14,1,4.7,22,0.23,0.02,71,Cultural Museum Visit
+646,0.21,0.19,0.66,1,Couple,Budget,10,Sunny,36,91,Wellness Expo,38,1,4.1,16,0.83,0.39,90,Spa Package
+647,0.64,0.41,0.47,0,Solo,Mid-range,3,Cloudy,16,80,Wellness Expo,85,0,4.6,0,0.18,0.23,50,City Tour
+648,0.74,0.48,0.6,1,Business,Luxury,8,Cloudy,15,79,Food Carnival,94,1,4.4,60,0.81,0.05,10,Indoor Wellness Retreat
+649,0.24,0.35,0.2,1,Couple,Mid-range,2,Sunny,25,1,Cultural Fair,80,0,5.0,1,0.79,0.92,21,Cultural Museum Visit
+650,0.91,0.75,0.97,1,Business,Budget,10,Rainy,27,88,Food Carnival,87,1,3.8,14,0.73,0.81,46,City Tour
+651,0.81,0.48,1.0,0,Couple,Mid-range,11,Sunny,33,60,Cultural Fair,95,0,4.6,7,0.76,0.54,23,Spa Package
+652,0.27,0.55,0.3,0,Family,Mid-range,4,Sunny,20,67,Wellness Expo,3,0,4.8,74,0.78,0.58,57,Spa Package
+653,0.4,0.29,0.1,1,Family,Budget,3,Rainy,35,25,Cultural Fair,89,1,3.7,56,0.07,0.39,71,Food Experience
+654,0.44,0.98,0.45,1,Couple,Budget,2,Snowy,21,52,Food Carnival,85,0,4.2,71,0.66,0.69,49,Spa Package
+655,0.93,0.93,0.97,0,Solo,Mid-range,11,Snowy,34,34,Cultural Fair,85,1,3.8,25,0.41,0.58,8,Food Experience
+656,0.99,0.74,0.7,0,Solo,Budget,13,Rainy,25,76,Music Festival,66,1,4.1,80,0.73,0.32,49,City Tour
+657,0.55,0.19,0.05,1,Couple,Budget,4,Sunny,24,53,Wellness Expo,94,1,3.7,68,0.54,0.73,33,City Tour
+658,0.45,0.48,0.23,1,Solo,Budget,11,Cloudy,20,2,Food Carnival,43,1,3.7,52,0.99,0.42,51,Indoor Wellness Retreat
+659,0.26,0.65,0.55,0,Solo,Budget,12,Rainy,32,43,Cultural Fair,4,0,4.1,70,0.28,0.95,33,Spa Package
+660,0.05,0.37,0.75,1,Couple,Mid-range,12,Sunny,13,59,Food Carnival,30,1,4.7,51,0.23,0.54,27,Spa Package
+661,0.45,0.87,0.7,1,Couple,Mid-range,9,Cloudy,25,20,Food Carnival,11,0,4.8,54,0.1,0.06,24,Food Experience
+662,0.18,0.28,0.85,0,Business,Budget,3,Snowy,31,47,Sports Event,51,0,3.6,15,0.21,0.56,67,Spa Package
+663,0.6,0.26,0.3,1,Solo,Budget,14,Sunny,20,59,Food Carnival,84,1,4.5,30,0.46,0.41,88,Spa Package
+664,0.3,0.79,0.25,0,Business,Budget,8,Rainy,17,14,Music Festival,69,0,4.3,100,0.43,0.02,19,Adventure Trek
+665,0.02,0.29,0.51,0,Family,Luxury,11,Snowy,18,83,Music Festival,3,1,3.8,90,0.64,0.53,84,Food Experience
+666,0.41,0.9,0.57,1,Couple,Luxury,11,Sunny,24,83,Cultural Fair,67,0,4.1,69,0.41,0.54,43,Cultural Museum Visit
+667,0.66,1.0,0.86,1,Solo,Luxury,14,Cloudy,18,51,Food Carnival,19,1,4.2,64,0.75,0.78,53,Food Experience
+668,0.19,0.13,0.74,1,Business,Luxury,13,Snowy,18,43,Cultural Fair,2,0,5.0,8,0.18,0.39,43,Spa Package
+669,0.99,0.29,0.56,0,Couple,Luxury,10,Cloudy,31,31,Music Festival,42,0,4.9,84,0.43,0.39,69,Indoor Wellness Retreat
+670,0.18,0.05,0.72,1,Business,Mid-range,5,Snowy,33,70,Music Festival,72,0,5.0,25,0.98,0.12,29,Spa Package
+671,0.67,0.44,0.67,1,Solo,Budget,11,Snowy,35,92,Sports Event,58,0,4.4,63,0.98,0.99,89,City Tour
+672,0.82,0.89,0.69,0,Couple,Mid-range,8,Cloudy,39,89,Wellness Expo,72,1,4.1,52,0.2,0.41,15,Cultural Museum Visit
+673,0.62,0.16,0.72,0,Couple,Luxury,13,Rainy,10,66,Sports Event,71,1,4.1,32,0.17,0.88,75,Food Experience
+674,0.33,0.28,0.84,1,Solo,Luxury,5,Sunny,40,35,Music Festival,63,1,4.5,37,0.27,0.21,8,City Tour
+675,0.75,0.18,0.97,1,Solo,Luxury,13,Sunny,34,97,Cultural Fair,37,0,4.3,49,0.44,0.46,62,Cultural Museum Visit
+676,0.87,0.5,0.53,1,Business,Mid-range,5,Sunny,25,13,Sports Event,80,1,4.7,58,0.41,0.45,77,Adventure Trek
+677,0.84,0.49,0.86,0,Couple,Luxury,5,Cloudy,11,22,Food Carnival,94,1,4.0,62,0.53,0.57,18,Cultural Museum Visit
+678,0.27,0.49,0.84,0,Couple,Luxury,13,Sunny,28,72,Food Carnival,16,1,4.9,16,0.41,0.08,25,Spa Package
+679,0.38,0.23,0.3,0,Business,Budget,5,Rainy,31,64,Wellness Expo,30,0,3.7,69,0.33,0.72,60,Adventure Trek
+680,0.72,0.86,0.12,1,Couple,Budget,3,Snowy,38,49,Food Carnival,66,0,4.0,50,0.26,0.38,49,City Tour
+681,0.09,0.95,0.61,1,Business,Luxury,5,Sunny,33,4,Wellness Expo,8,0,4.4,41,0.28,0.02,34,Indoor Wellness Retreat
+682,0.57,0.29,0.6,1,Business,Luxury,3,Cloudy,10,72,Music Festival,85,1,3.5,91,0.46,0.6,33,Adventure Trek
+683,0.54,0.44,0.18,0,Solo,Luxury,2,Snowy,37,8,Cultural Fair,26,1,3.5,78,0.03,0.36,34,Adventure Trek
+684,0.09,0.33,0.65,0,Family,Luxury,8,Rainy,26,81,Cultural Fair,18,0,4.2,99,0.59,0.83,16,Food Experience
+685,0.85,0.68,0.59,1,Business,Budget,13,Rainy,26,30,Food Carnival,17,1,4.0,33,0.68,0.4,32,City Tour
+686,0.41,0.12,0.42,0,Family,Mid-range,12,Sunny,35,17,Sports Event,7,0,3.9,23,0.73,0.13,13,City Tour
+687,0.8,0.01,0.42,0,Family,Luxury,14,Rainy,38,0,Cultural Fair,28,1,4.8,28,0.01,0.72,0,Food Experience
+688,1.0,0.22,0.19,0,Family,Luxury,6,Snowy,24,53,Sports Event,83,0,4.6,57,0.17,0.43,97,Adventure Trek
+689,0.99,0.39,0.05,0,Business,Budget,14,Snowy,32,31,Sports Event,90,1,4.2,98,0.57,0.75,58,Cultural Museum Visit
+690,0.57,0.58,0.6,1,Couple,Budget,5,Cloudy,11,41,Music Festival,58,1,4.5,25,0.44,0.72,51,City Tour
+691,0.07,0.39,0.82,1,Business,Budget,13,Rainy,27,67,Food Carnival,12,1,4.4,74,0.89,0.93,32,City Tour
+692,0.22,0.55,0.58,1,Family,Mid-range,3,Rainy,22,16,Cultural Fair,79,0,3.7,69,0.04,0.91,22,Adventure Trek
+693,0.07,0.95,0.02,0,Business,Luxury,2,Sunny,23,31,Music Festival,24,1,4.3,36,0.77,0.61,15,Food Experience
+694,0.03,0.08,0.87,1,Couple,Mid-range,1,Cloudy,12,71,Wellness Expo,93,0,4.6,46,0.31,0.21,9,Indoor Wellness Retreat
+695,0.71,0.16,0.12,0,Business,Mid-range,2,Sunny,38,34,Sports Event,67,0,4.2,31,0.58,0.54,49,Adventure Trek
+696,0.6,0.8,0.61,0,Family,Budget,1,Cloudy,35,78,Food Carnival,97,0,4.1,1,0.31,0.68,78,Cultural Museum Visit
+697,0.83,0.69,0.98,1,Family,Budget,4,Sunny,36,46,Food Carnival,63,0,4.7,78,0.01,0.38,61,Spa Package
+698,0.69,0.91,0.04,0,Couple,Mid-range,6,Sunny,27,61,Sports Event,18,0,3.6,26,0.2,0.04,80,Indoor Wellness Retreat
+699,0.53,0.5,0.81,1,Business,Mid-range,7,Rainy,35,74,Cultural Fair,61,0,4.0,5,0.35,0.65,87,Food Experience
+700,0.37,0.82,0.96,1,Family,Luxury,6,Cloudy,38,70,Music Festival,16,0,4.3,3,0.49,0.89,25,City Tour
+701,0.96,0.7,0.56,0,Family,Budget,3,Rainy,23,61,Wellness Expo,41,1,4.7,73,0.81,0.88,54,Food Experience
+702,0.87,0.56,0.88,1,Solo,Mid-range,14,Snowy,40,27,Wellness Expo,52,1,5.0,78,0.77,0.59,96,Indoor Wellness Retreat
+703,0.63,0.53,0.79,0,Solo,Luxury,13,Cloudy,10,96,Food Carnival,47,1,4.5,15,0.38,0.49,87,City Tour
+704,0.0,0.73,0.87,0,Solo,Luxury,7,Snowy,20,93,Food Carnival,64,0,4.3,62,0.3,0.79,80,Adventure Trek
+705,0.62,0.98,0.98,1,Solo,Budget,6,Sunny,14,28,Wellness Expo,80,0,4.4,34,0.82,0.92,83,Indoor Wellness Retreat
+706,0.93,0.05,0.66,1,Solo,Luxury,8,Snowy,20,94,Food Carnival,79,0,4.0,87,0.94,0.37,82,Adventure Trek
+707,0.8,0.59,0.04,0,Family,Luxury,7,Sunny,29,80,Sports Event,89,0,4.1,8,0.23,0.28,1,Food Experience
+708,0.68,0.81,0.99,1,Family,Budget,13,Snowy,28,83,Music Festival,50,0,4.6,74,0.06,0.4,11,Cultural Museum Visit
+709,0.89,0.36,0.0,1,Couple,Mid-range,12,Cloudy,39,76,Food Carnival,67,1,4.2,85,0.89,0.33,34,City Tour
+710,0.4,0.22,0.81,1,Family,Budget,5,Sunny,14,12,Cultural Fair,97,1,4.8,19,0.9,0.02,19,Indoor Wellness Retreat
+711,0.03,0.85,0.57,1,Family,Budget,14,Snowy,34,98,Food Carnival,50,1,3.8,19,0.59,0.63,85,Adventure Trek
+712,0.24,0.79,0.74,1,Family,Budget,1,Sunny,25,40,Music Festival,47,1,4.3,43,0.69,0.46,97,Spa Package
+713,0.95,0.94,0.7,1,Business,Luxury,2,Rainy,11,56,Music Festival,38,1,4.5,49,0.25,0.02,91,Adventure Trek
+714,0.58,0.65,0.11,0,Couple,Luxury,10,Snowy,39,14,Music Festival,73,1,3.8,82,0.86,0.66,10,City Tour
+715,0.34,0.52,0.08,1,Family,Mid-range,5,Snowy,23,47,Cultural Fair,35,0,3.6,37,0.11,0.82,2,Food Experience
+716,0.02,0.27,0.58,0,Couple,Budget,2,Sunny,10,90,Cultural Fair,49,1,3.8,78,0.74,0.06,78,Indoor Wellness Retreat
+717,0.99,0.11,0.23,1,Couple,Luxury,11,Rainy,19,46,Sports Event,90,1,4.0,89,0.28,0.32,24,City Tour
+718,0.28,0.04,0.01,0,Family,Budget,12,Rainy,15,47,Food Carnival,29,0,4.5,94,0.56,0.24,49,Cultural Museum Visit
+719,0.87,0.23,0.91,1,Solo,Mid-range,14,Sunny,26,14,Cultural Fair,17,0,4.8,5,0.41,0.01,6,Spa Package
+720,0.3,0.65,0.14,1,Business,Luxury,11,Cloudy,36,25,Cultural Fair,95,0,4.9,34,0.67,0.45,18,Adventure Trek
+721,0.11,0.62,0.18,1,Business,Mid-range,13,Rainy,39,58,Sports Event,93,0,3.7,5,0.9,0.51,81,City Tour
+722,0.75,0.2,0.14,0,Solo,Luxury,5,Rainy,24,40,Cultural Fair,87,0,4.2,83,0.44,0.24,17,Food Experience
+723,0.72,0.21,0.75,0,Couple,Luxury,14,Rainy,10,93,Sports Event,89,0,3.7,65,0.49,0.24,34,Indoor Wellness Retreat
+724,0.76,0.56,0.82,0,Family,Luxury,9,Sunny,34,98,Wellness Expo,72,0,5.0,35,0.54,0.96,48,Indoor Wellness Retreat
+725,0.47,0.45,0.37,1,Solo,Budget,9,Rainy,35,82,Food Carnival,1,1,3.8,37,0.38,0.45,21,City Tour
+726,0.46,0.26,0.2,1,Solo,Mid-range,13,Sunny,33,23,Food Carnival,18,1,4.1,95,0.29,0.48,35,Food Experience
+727,0.26,0.44,0.73,0,Family,Budget,6,Sunny,16,72,Wellness Expo,19,0,4.8,43,0.47,0.33,58,City Tour
+728,0.82,0.85,0.84,0,Solo,Luxury,11,Cloudy,36,0,Music Festival,89,0,4.1,74,0.4,0.64,14,Indoor Wellness Retreat
+729,0.28,0.91,0.31,1,Solo,Luxury,6,Cloudy,11,85,Cultural Fair,61,0,4.0,77,0.83,0.76,83,City Tour
+730,0.34,0.07,0.63,1,Family,Mid-range,7,Sunny,22,92,Music Festival,49,1,3.6,23,0.94,0.73,4,Food Experience
+731,0.66,0.14,0.62,1,Business,Luxury,11,Sunny,17,57,Music Festival,56,0,4.0,11,0.79,0.46,23,Food Experience
+732,0.38,0.43,0.89,1,Business,Mid-range,11,Snowy,11,31,Sports Event,33,0,4.8,11,1.0,0.98,83,City Tour
+733,0.09,0.28,0.87,1,Couple,Mid-range,7,Rainy,14,98,Sports Event,89,1,5.0,7,0.98,0.14,46,Indoor Wellness Retreat
+734,0.9,0.69,0.09,1,Family,Mid-range,10,Cloudy,11,7,Food Carnival,97,0,3.8,18,0.07,0.07,35,Food Experience
+735,0.58,0.94,0.2,0,Solo,Mid-range,12,Snowy,24,4,Sports Event,9,0,3.6,90,0.77,0.14,40,Adventure Trek
+736,0.0,0.3,0.87,0,Solo,Luxury,11,Cloudy,26,37,Wellness Expo,74,1,4.3,97,0.38,0.5,66,Spa Package
+737,0.91,0.14,0.85,1,Business,Luxury,11,Cloudy,23,40,Food Carnival,53,0,4.6,80,0.73,0.86,13,City Tour
+738,0.87,0.49,0.9,0,Couple,Mid-range,10,Snowy,25,73,Sports Event,78,0,4.3,97,0.62,0.85,93,City Tour
+739,0.63,0.04,0.06,0,Solo,Mid-range,5,Sunny,32,14,Cultural Fair,51,1,4.6,16,0.22,0.01,8,City Tour
+740,0.42,0.34,0.07,1,Business,Mid-range,6,Snowy,32,73,Food Carnival,70,0,3.9,74,0.26,0.72,29,Spa Package
+741,0.8,0.61,0.1,1,Couple,Budget,9,Sunny,14,49,Cultural Fair,20,1,4.9,40,0.27,0.96,19,Cultural Museum Visit
+742,0.74,0.81,0.78,0,Business,Mid-range,10,Cloudy,19,80,Music Festival,39,1,3.9,57,0.32,0.25,7,Spa Package
+743,0.55,0.75,0.38,1,Solo,Budget,10,Rainy,23,40,Music Festival,73,0,4.8,52,0.2,0.04,73,Spa Package
+744,0.66,0.94,0.93,1,Business,Budget,13,Cloudy,30,13,Music Festival,46,1,3.9,0,0.3,0.62,44,Spa Package
+745,0.88,0.01,0.95,0,Couple,Mid-range,12,Snowy,18,96,Wellness Expo,82,0,4.6,36,0.6,0.7,78,Cultural Museum Visit
+746,0.58,0.42,0.9,0,Family,Luxury,7,Snowy,40,24,Food Carnival,4,1,3.9,90,0.45,0.42,7,Indoor Wellness Retreat
+747,0.95,0.79,0.26,0,Solo,Budget,3,Rainy,20,61,Wellness Expo,66,0,4.6,97,0.51,0.86,20,Food Experience
+748,0.15,0.73,0.26,0,Family,Budget,5,Sunny,16,14,Cultural Fair,46,0,4.1,82,0.87,0.2,28,Food Experience
+749,0.73,0.27,0.75,1,Solo,Luxury,8,Sunny,32,46,Music Festival,15,0,4.1,53,0.9,0.16,50,Spa Package
+750,0.62,0.52,0.67,0,Solo,Luxury,14,Cloudy,10,0,Sports Event,84,0,4.7,8,0.9,0.26,50,Indoor Wellness Retreat
+751,0.62,0.92,0.31,1,Business,Budget,13,Snowy,11,18,Food Carnival,77,1,4.0,88,0.06,0.33,2,City Tour
+752,0.27,0.09,0.64,1,Family,Mid-range,7,Rainy,30,33,Cultural Fair,31,1,4.7,95,0.37,1.0,79,Spa Package
+753,0.18,0.75,0.26,0,Solo,Luxury,6,Sunny,23,55,Music Festival,16,0,3.9,97,0.85,0.73,35,Spa Package
+754,0.31,0.08,0.37,1,Business,Budget,9,Cloudy,30,64,Wellness Expo,55,0,4.0,65,0.06,0.69,7,Adventure Trek
+755,0.11,0.61,0.4,1,Family,Luxury,9,Cloudy,16,57,Sports Event,93,1,4.5,2,0.28,0.79,94,Spa Package
+756,0.81,0.44,0.51,1,Couple,Luxury,9,Snowy,29,57,Music Festival,35,0,4.6,14,0.04,0.13,18,Cultural Museum Visit
+757,0.03,0.97,0.78,1,Business,Mid-range,4,Snowy,40,34,Sports Event,83,0,4.8,68,0.33,0.46,70,Adventure Trek
+758,0.87,0.32,0.63,0,Couple,Mid-range,9,Sunny,13,97,Cultural Fair,93,0,4.9,73,0.53,0.48,62,Spa Package
+759,0.93,0.55,0.74,1,Family,Budget,10,Sunny,14,49,Sports Event,86,0,4.3,4,0.1,0.26,21,Indoor Wellness Retreat
+760,0.13,0.52,0.02,1,Solo,Budget,9,Sunny,37,63,Cultural Fair,7,0,3.6,2,0.65,0.87,48,Cultural Museum Visit
+761,0.23,0.16,0.55,1,Family,Mid-range,5,Rainy,24,65,Food Carnival,97,0,4.6,64,0.29,0.54,57,Cultural Museum Visit
+762,0.28,0.55,0.34,1,Family,Budget,11,Rainy,22,90,Wellness Expo,68,0,3.7,78,0.85,0.24,6,Food Experience
+763,0.74,0.89,0.34,1,Family,Budget,7,Sunny,13,55,Wellness Expo,48,1,4.8,83,0.34,0.74,24,Food Experience
+764,0.68,0.33,0.03,1,Family,Luxury,7,Sunny,30,47,Food Carnival,5,1,4.3,45,0.97,0.95,70,Indoor Wellness Retreat
+765,0.49,0.08,0.56,0,Couple,Luxury,14,Sunny,20,80,Sports Event,50,1,4.9,40,0.88,0.78,79,Cultural Museum Visit
+766,0.34,0.16,0.44,1,Solo,Luxury,7,Sunny,21,92,Sports Event,30,0,3.5,99,0.56,0.1,31,City Tour
+767,0.45,0.4,0.92,1,Family,Luxury,1,Sunny,17,68,Food Carnival,15,1,3.7,94,0.1,0.29,99,Adventure Trek
+768,0.4,0.93,0.32,0,Business,Luxury,11,Rainy,36,61,Music Festival,100,0,5.0,32,0.14,0.33,6,Spa Package
+769,0.18,0.37,0.69,0,Family,Budget,9,Sunny,33,41,Music Festival,96,1,4.8,51,0.13,0.68,37,Cultural Museum Visit
+770,0.68,0.74,0.3,1,Business,Luxury,9,Rainy,26,80,Sports Event,17,0,3.8,83,0.83,0.91,27,Food Experience
+771,0.67,0.54,0.58,1,Couple,Budget,13,Snowy,15,1,Wellness Expo,79,0,3.9,45,0.42,0.09,50,Cultural Museum Visit
+772,0.07,0.56,0.17,0,Couple,Budget,6,Sunny,18,46,Wellness Expo,33,1,3.9,82,0.75,0.17,51,Food Experience
+773,0.94,0.81,0.89,0,Family,Mid-range,3,Rainy,19,15,Music Festival,94,0,3.8,67,0.27,0.67,79,Indoor Wellness Retreat
+774,0.52,0.37,0.17,0,Family,Luxury,5,Cloudy,12,13,Sports Event,70,0,4.0,13,0.4,0.1,20,Food Experience
+775,0.32,0.34,0.47,0,Couple,Luxury,2,Sunny,27,23,Wellness Expo,11,1,4.3,81,0.67,0.63,35,City Tour
+776,0.85,0.44,0.84,1,Business,Budget,6,Cloudy,28,12,Wellness Expo,18,1,4.6,10,0.72,0.58,55,City Tour
+777,0.29,0.53,0.8,0,Family,Mid-range,5,Sunny,28,92,Cultural Fair,66,0,4.9,49,0.97,0.33,4,Spa Package
+778,0.68,0.38,0.15,1,Couple,Luxury,12,Rainy,30,32,Music Festival,16,1,4.0,18,0.09,0.25,4,Spa Package
+779,0.77,0.21,0.79,1,Solo,Mid-range,8,Rainy,15,2,Sports Event,70,0,4.6,57,0.59,0.25,63,Cultural Museum Visit
+780,0.75,0.54,0.79,1,Couple,Luxury,5,Rainy,18,36,Sports Event,29,1,4.6,91,0.83,0.81,69,Indoor Wellness Retreat
+781,0.21,0.15,0.93,0,Solo,Luxury,1,Cloudy,17,4,Music Festival,60,0,4.5,70,0.54,0.04,80,Spa Package
+782,0.47,0.07,0.95,1,Solo,Luxury,5,Cloudy,10,66,Music Festival,58,1,4.7,23,0.97,0.31,45,Food Experience
+783,0.94,0.49,0.05,1,Family,Mid-range,7,Cloudy,20,73,Cultural Fair,75,0,3.6,36,0.43,0.83,5,Indoor Wellness Retreat
+784,0.88,0.28,0.88,0,Business,Budget,11,Cloudy,25,13,Cultural Fair,58,0,4.5,11,0.29,0.51,92,Indoor Wellness Retreat
+785,0.71,0.28,0.73,0,Couple,Luxury,14,Snowy,37,27,Music Festival,19,0,4.3,6,0.56,0.73,97,Indoor Wellness Retreat
+786,0.01,0.05,0.57,0,Family,Budget,6,Snowy,22,82,Music Festival,88,1,4.1,22,0.38,0.36,64,Food Experience
+787,0.39,0.39,0.32,0,Business,Budget,10,Cloudy,28,39,Sports Event,4,0,4.5,72,0.89,0.57,34,Cultural Museum Visit
+788,0.4,0.93,0.41,1,Solo,Budget,2,Cloudy,13,66,Cultural Fair,12,1,3.6,18,0.25,0.68,96,Cultural Museum Visit
+789,0.12,0.6,0.21,0,Couple,Mid-range,9,Snowy,20,49,Music Festival,76,1,4.9,51,0.02,0.61,79,Adventure Trek
+790,0.52,0.71,0.13,1,Couple,Budget,8,Cloudy,35,58,Music Festival,44,1,3.6,6,0.82,0.55,3,Food Experience
+791,0.1,0.9,0.82,1,Business,Mid-range,8,Snowy,30,20,Food Carnival,8,0,5.0,57,0.44,0.68,52,Adventure Trek
+792,0.28,0.34,0.06,1,Solo,Budget,4,Snowy,39,90,Sports Event,56,1,3.5,21,0.36,0.35,93,Indoor Wellness Retreat
+793,0.75,0.55,0.38,1,Business,Mid-range,5,Rainy,28,0,Food Carnival,70,0,4.7,15,0.39,0.8,36,City Tour
+794,0.18,0.32,0.4,1,Couple,Luxury,6,Cloudy,29,89,Wellness Expo,25,1,4.7,70,0.15,0.58,42,Spa Package
+795,0.27,0.23,0.73,1,Business,Luxury,8,Snowy,17,53,Sports Event,2,0,3.8,52,0.75,0.74,26,Spa Package
+796,0.1,0.84,0.88,0,Family,Luxury,13,Sunny,28,55,Cultural Fair,7,0,4.8,93,0.67,0.36,79,Spa Package
+797,0.27,0.67,0.26,1,Family,Budget,13,Rainy,34,16,Music Festival,54,1,4.4,19,0.99,0.08,31,Indoor Wellness Retreat
+798,0.47,0.51,0.36,0,Family,Budget,12,Rainy,28,80,Cultural Fair,91,0,4.4,66,0.96,0.59,7,City Tour
+799,0.66,0.13,0.27,0,Couple,Budget,11,Rainy,36,7,Cultural Fair,44,0,4.7,74,0.29,0.69,87,Indoor Wellness Retreat
+800,0.77,0.6,0.54,1,Solo,Budget,8,Rainy,31,68,Music Festival,50,0,3.6,81,0.44,0.86,71,Indoor Wellness Retreat
+801,0.42,0.95,0.6,0,Family,Budget,11,Snowy,19,40,Food Carnival,6,1,4.9,71,0.38,0.33,97,Food Experience
+802,0.55,0.81,0.32,1,Solo,Budget,11,Rainy,38,71,Food Carnival,49,0,5.0,66,0.55,0.3,92,Adventure Trek
+803,0.0,0.36,0.18,1,Family,Luxury,14,Sunny,37,46,Cultural Fair,70,0,4.7,18,0.84,0.35,71,Food Experience
+804,0.5,0.16,0.87,1,Business,Luxury,1,Cloudy,30,46,Music Festival,36,1,4.3,40,0.24,0.55,64,Cultural Museum Visit
+805,0.22,0.7,0.11,0,Family,Luxury,2,Rainy,12,64,Food Carnival,53,1,4.3,6,0.68,0.61,57,Food Experience
+806,0.05,0.59,0.91,1,Business,Budget,8,Snowy,20,66,Food Carnival,39,0,3.7,53,0.26,0.67,30,Adventure Trek
+807,0.67,0.92,0.26,1,Family,Budget,9,Snowy,31,12,Cultural Fair,76,1,4.5,19,0.15,0.57,6,Food Experience
+808,0.3,0.29,0.11,1,Business,Budget,6,Cloudy,31,0,Music Festival,69,1,4.1,15,0.09,0.92,0,Indoor Wellness Retreat
+809,0.41,0.87,0.98,1,Solo,Mid-range,6,Sunny,12,8,Music Festival,51,0,4.8,22,0.93,0.07,92,Cultural Museum Visit
+810,0.25,0.75,0.76,1,Couple,Luxury,5,Sunny,37,82,Sports Event,25,1,3.8,67,0.25,0.88,41,Cultural Museum Visit
+811,0.83,0.75,0.15,0,Business,Mid-range,1,Cloudy,12,50,Wellness Expo,74,1,5.0,56,0.45,0.05,61,Cultural Museum Visit
+812,0.32,0.99,0.76,1,Solo,Mid-range,7,Snowy,30,19,Music Festival,42,1,4.3,41,0.17,0.96,45,City Tour
+813,0.84,0.13,0.25,0,Family,Mid-range,9,Sunny,15,75,Food Carnival,16,1,4.5,5,0.14,0.77,23,Spa Package
+814,0.09,0.97,0.39,0,Business,Budget,9,Sunny,38,13,Cultural Fair,49,0,4.5,29,0.77,0.15,94,Indoor Wellness Retreat
+815,0.74,0.13,0.49,0,Business,Budget,4,Rainy,14,76,Food Carnival,33,1,4.4,38,0.03,0.62,68,Food Experience
+816,0.61,0.17,0.67,0,Family,Budget,11,Cloudy,40,58,Wellness Expo,4,1,3.8,4,0.4,0.66,3,Cultural Museum Visit
+817,0.92,0.56,0.26,0,Couple,Mid-range,11,Sunny,36,10,Sports Event,52,1,3.5,27,0.13,0.69,22,Food Experience
+818,0.05,0.62,0.77,1,Couple,Luxury,7,Cloudy,34,30,Sports Event,68,0,4.1,19,0.92,0.02,26,Cultural Museum Visit
+819,0.12,0.16,0.84,0,Business,Luxury,5,Snowy,30,93,Wellness Expo,33,0,5.0,34,0.8,0.6,95,City Tour
+820,0.79,0.72,0.73,1,Solo,Luxury,13,Sunny,31,49,Music Festival,16,0,4.0,28,0.25,0.4,23,Spa Package
+821,0.13,0.34,1.0,0,Solo,Luxury,9,Sunny,23,29,Food Carnival,25,0,3.8,46,0.04,0.71,74,City Tour
+822,0.3,0.66,0.78,0,Business,Mid-range,2,Cloudy,15,65,Cultural Fair,47,1,4.5,91,0.47,0.15,78,Indoor Wellness Retreat
+823,0.83,0.8,0.28,1,Business,Budget,13,Rainy,16,89,Food Carnival,92,0,3.9,75,0.75,0.16,2,City Tour
+824,0.35,0.76,0.1,0,Family,Luxury,7,Sunny,27,58,Wellness Expo,63,1,4.8,53,0.35,0.67,82,Indoor Wellness Retreat
+825,0.87,0.81,0.64,1,Couple,Mid-range,4,Snowy,20,71,Food Carnival,63,1,4.2,87,0.3,0.36,37,Food Experience
+826,0.56,0.62,0.94,1,Business,Mid-range,12,Cloudy,29,49,Wellness Expo,64,0,4.2,32,0.73,0.58,72,Adventure Trek
+827,0.68,0.03,0.63,0,Business,Luxury,14,Rainy,35,14,Food Carnival,35,0,4.2,76,0.82,0.11,44,Cultural Museum Visit
+828,0.41,0.08,0.98,1,Solo,Mid-range,3,Sunny,22,17,Sports Event,24,0,3.8,30,0.67,0.74,88,City Tour
+829,0.6,0.75,0.61,1,Family,Mid-range,3,Cloudy,37,29,Sports Event,36,1,4.7,77,0.39,0.49,83,Food Experience
+830,0.5,0.01,0.93,0,Couple,Budget,6,Sunny,20,25,Food Carnival,26,1,4.6,44,0.97,0.26,23,Indoor Wellness Retreat
+831,0.39,0.29,0.99,0,Couple,Mid-range,9,Sunny,25,6,Sports Event,73,1,3.6,8,0.16,0.68,42,Food Experience
+832,0.03,0.89,0.43,0,Solo,Budget,5,Rainy,29,91,Wellness Expo,89,0,3.6,33,0.35,0.11,9,Cultural Museum Visit
+833,0.63,0.74,0.14,1,Business,Luxury,4,Cloudy,24,31,Music Festival,0,0,4.9,41,0.53,0.63,38,Indoor Wellness Retreat
+834,0.72,0.37,0.88,1,Couple,Luxury,13,Sunny,23,9,Sports Event,3,0,4.4,34,0.55,0.68,25,Spa Package
+835,0.64,0.93,0.19,1,Couple,Mid-range,9,Rainy,24,94,Cultural Fair,52,1,3.6,53,0.76,0.21,26,Spa Package
+836,0.05,0.46,0.25,0,Business,Mid-range,4,Rainy,25,53,Wellness Expo,38,0,4.2,62,0.64,0.97,23,Cultural Museum Visit
+837,0.85,0.6,0.54,1,Couple,Mid-range,4,Rainy,24,22,Wellness Expo,43,0,4.6,42,0.22,0.11,4,Indoor Wellness Retreat
+838,0.25,0.3,0.25,0,Family,Luxury,7,Cloudy,16,84,Music Festival,98,0,3.8,42,0.08,0.53,36,City Tour
+839,0.72,0.84,0.23,0,Business,Budget,10,Rainy,32,80,Cultural Fair,83,1,5.0,99,0.12,0.71,82,Indoor Wellness Retreat
+840,0.05,0.55,0.01,1,Couple,Luxury,14,Sunny,27,86,Music Festival,28,1,4.2,17,0.5,0.91,76,Spa Package
+841,0.8,0.45,0.04,0,Couple,Mid-range,9,Rainy,38,14,Cultural Fair,12,0,4.6,100,0.27,0.25,9,Food Experience
+842,0.86,0.06,0.96,0,Family,Luxury,12,Cloudy,22,36,Wellness Expo,82,1,4.2,94,0.96,0.83,66,City Tour
+843,0.33,0.67,0.51,0,Couple,Luxury,12,Snowy,14,68,Food Carnival,34,1,4.7,75,0.64,0.26,48,Indoor Wellness Retreat
+844,0.93,0.67,0.3,0,Couple,Luxury,3,Rainy,27,11,Sports Event,74,1,4.9,82,0.42,0.26,41,Spa Package
+845,0.35,0.92,0.59,1,Family,Luxury,2,Sunny,23,76,Cultural Fair,98,0,4.6,9,0.26,0.96,47,Cultural Museum Visit
+846,0.58,0.66,0.36,0,Family,Budget,14,Rainy,13,71,Cultural Fair,9,1,4.3,63,0.33,0.95,14,Adventure Trek
+847,0.6,0.29,0.9,1,Business,Mid-range,11,Sunny,25,46,Food Carnival,1,1,4.3,14,0.37,0.96,57,Cultural Museum Visit
+848,0.69,0.22,0.52,0,Family,Budget,11,Snowy,26,6,Food Carnival,94,1,3.8,0,0.99,0.3,29,Indoor Wellness Retreat
+849,0.84,0.45,0.19,1,Business,Luxury,10,Rainy,12,56,Wellness Expo,44,0,4.7,68,0.55,0.42,37,Cultural Museum Visit
+850,0.06,0.95,0.46,0,Solo,Mid-range,6,Cloudy,22,5,Music Festival,39,0,4.9,59,0.58,0.01,33,Indoor Wellness Retreat
+851,0.96,0.28,0.9,0,Solo,Luxury,7,Snowy,11,14,Sports Event,15,1,3.8,63,0.86,0.23,85,Adventure Trek
+852,0.07,0.76,0.69,0,Family,Luxury,3,Rainy,12,20,Music Festival,85,1,4.0,51,0.39,0.29,10,City Tour
+853,0.91,0.72,0.26,0,Solo,Budget,7,Rainy,11,89,Food Carnival,22,0,4.9,17,0.31,0.18,22,City Tour
+854,0.47,0.09,0.96,1,Couple,Luxury,12,Rainy,34,11,Sports Event,14,1,3.6,26,0.04,0.51,85,City Tour
+855,0.79,0.16,0.65,0,Couple,Budget,4,Sunny,10,63,Wellness Expo,91,1,3.7,61,0.22,0.47,52,Cultural Museum Visit
+856,0.7,0.19,0.55,0,Couple,Luxury,1,Sunny,11,8,Food Carnival,61,1,4.4,54,0.37,0.96,52,Indoor Wellness Retreat
+857,1.0,0.54,0.07,1,Business,Mid-range,3,Snowy,34,33,Music Festival,45,1,4.9,40,0.49,0.75,87,Indoor Wellness Retreat
+858,0.86,0.77,0.91,0,Solo,Budget,11,Rainy,37,4,Music Festival,0,1,4.5,45,0.01,0.84,61,Indoor Wellness Retreat
+859,0.68,0.76,0.66,1,Family,Luxury,9,Sunny,10,36,Sports Event,49,1,4.1,99,0.69,0.73,8,Adventure Trek
+860,0.13,0.32,0.43,0,Family,Mid-range,13,Cloudy,37,1,Food Carnival,64,1,4.7,51,0.21,0.07,37,Spa Package
+861,0.28,0.6,0.97,1,Family,Mid-range,14,Snowy,11,85,Cultural Fair,72,0,4.4,30,0.68,0.69,79,Spa Package
+862,0.72,0.61,0.45,1,Solo,Mid-range,13,Sunny,37,87,Food Carnival,94,0,4.4,66,0.44,0.57,78,Cultural Museum Visit
+863,0.45,0.95,0.81,1,Solo,Budget,3,Snowy,37,59,Food Carnival,28,0,4.1,48,0.1,0.37,82,Adventure Trek
+864,0.28,0.57,0.28,1,Family,Luxury,3,Cloudy,27,2,Music Festival,7,0,4.1,18,0.34,0.64,32,Cultural Museum Visit
+865,0.97,0.56,0.08,0,Solo,Budget,1,Snowy,18,79,Music Festival,100,1,3.9,10,0.66,0.45,48,Indoor Wellness Retreat
+866,0.98,0.09,0.2,0,Solo,Mid-range,8,Rainy,15,100,Cultural Fair,89,0,3.8,67,0.38,0.84,44,Spa Package
+867,0.53,0.61,0.82,1,Solo,Mid-range,7,Cloudy,33,59,Music Festival,35,0,4.0,81,0.33,0.7,32,Adventure Trek
+868,0.6,0.35,0.62,0,Family,Mid-range,10,Cloudy,36,93,Wellness Expo,47,1,3.6,11,0.66,0.93,8,Adventure Trek
+869,0.36,0.04,0.07,0,Business,Luxury,5,Rainy,22,19,Cultural Fair,94,0,3.9,10,0.47,0.82,17,City Tour
+870,0.64,0.04,0.13,0,Business,Budget,13,Sunny,39,36,Cultural Fair,62,0,5.0,98,0.56,0.14,49,City Tour
+871,0.92,0.93,0.49,0,Couple,Budget,9,Rainy,26,56,Sports Event,87,1,4.5,80,0.59,0.28,92,Cultural Museum Visit
+872,0.78,0.05,1.0,0,Couple,Luxury,6,Sunny,35,2,Music Festival,68,0,3.7,33,0.1,0.35,87,Cultural Museum Visit
+873,0.18,0.69,0.99,0,Solo,Budget,3,Rainy,20,94,Music Festival,59,1,4.0,18,0.26,0.96,41,Indoor Wellness Retreat
+874,0.88,0.76,0.1,1,Solo,Luxury,12,Rainy,37,69,Sports Event,6,0,4.8,80,0.5,0.92,7,City Tour
+875,0.66,0.48,0.4,1,Solo,Budget,7,Cloudy,29,10,Cultural Fair,50,1,4.3,79,0.7,0.96,98,Spa Package
+876,0.22,0.98,0.7,0,Solo,Budget,7,Cloudy,33,15,Wellness Expo,74,0,4.5,32,0.24,0.35,85,Cultural Museum Visit
+877,0.6,0.38,0.84,0,Family,Luxury,11,Cloudy,17,98,Food Carnival,65,0,4.7,8,0.8,0.73,81,Indoor Wellness Retreat
+878,0.4,0.86,0.79,0,Solo,Luxury,9,Snowy,32,10,Wellness Expo,47,0,3.9,100,0.82,0.33,88,Adventure Trek
+879,0.7,0.28,0.2,0,Family,Mid-range,10,Cloudy,30,62,Food Carnival,25,1,4.7,42,0.76,0.44,44,Cultural Museum Visit
+880,0.98,0.65,0.62,1,Solo,Budget,5,Sunny,33,82,Cultural Fair,70,1,4.1,90,0.57,0.83,19,Adventure Trek
+881,0.11,0.59,0.63,1,Family,Mid-range,14,Snowy,23,94,Food Carnival,83,0,4.0,23,0.79,0.78,49,City Tour
+882,0.97,0.18,0.86,1,Solo,Budget,4,Sunny,28,28,Food Carnival,43,0,3.7,76,0.99,0.72,29,City Tour
+883,0.65,0.58,0.16,1,Family,Budget,11,Rainy,13,6,Food Carnival,13,1,4.9,95,0.9,0.6,33,City Tour
+884,0.32,0.77,0.66,1,Family,Mid-range,14,Snowy,24,59,Cultural Fair,93,0,3.7,43,0.39,0.3,33,City Tour
+885,0.64,0.92,0.31,0,Family,Budget,13,Snowy,12,20,Cultural Fair,59,1,4.1,85,0.48,0.33,66,Spa Package
+886,0.91,0.57,0.39,1,Business,Budget,14,Rainy,26,43,Food Carnival,15,0,4.2,67,0.64,0.94,39,Food Experience
+887,0.55,0.51,0.42,0,Business,Mid-range,10,Sunny,20,90,Sports Event,3,1,4.5,32,0.32,0.09,58,Spa Package
+888,0.36,0.87,0.77,1,Family,Mid-range,12,Cloudy,29,94,Food Carnival,21,1,4.4,100,0.1,0.5,64,City Tour
+889,0.46,0.31,0.3,1,Business,Mid-range,14,Cloudy,13,99,Food Carnival,84,0,4.5,58,0.28,0.71,98,Food Experience
+890,0.88,0.84,0.62,0,Solo,Budget,4,Rainy,36,48,Cultural Fair,69,0,4.8,76,0.49,0.91,81,Indoor Wellness Retreat
+891,0.65,0.52,0.81,1,Solo,Budget,5,Rainy,18,33,Food Carnival,54,0,4.0,63,0.4,0.1,13,Spa Package
+892,0.44,0.58,0.53,1,Solo,Mid-range,8,Sunny,17,48,Cultural Fair,0,1,4.6,11,0.69,0.05,69,City Tour
+893,0.76,0.2,0.9,1,Business,Mid-range,12,Cloudy,39,59,Sports Event,41,1,3.9,82,0.63,0.8,10,Food Experience
+894,0.54,0.1,0.64,1,Solo,Budget,2,Sunny,34,4,Wellness Expo,74,0,4.6,23,0.41,0.68,25,Adventure Trek
+895,0.93,0.27,0.78,0,Business,Luxury,12,Cloudy,33,16,Wellness Expo,55,1,4.7,63,0.71,0.59,83,Indoor Wellness Retreat
+896,0.3,0.69,0.92,1,Couple,Budget,11,Cloudy,36,95,Wellness Expo,37,1,4.9,60,0.62,0.13,45,Food Experience
+897,0.91,0.23,0.01,0,Business,Budget,7,Snowy,22,52,Cultural Fair,18,1,4.1,95,0.7,0.9,77,Indoor Wellness Retreat
+898,0.34,0.57,0.24,0,Solo,Luxury,6,Sunny,25,80,Food Carnival,85,1,4.9,62,0.51,0.23,80,Food Experience
+899,0.19,0.52,0.67,1,Family,Budget,2,Cloudy,37,79,Cultural Fair,64,1,4.7,93,0.36,0.68,78,Cultural Museum Visit
+900,0.35,0.13,0.89,1,Family,Mid-range,6,Cloudy,23,76,Sports Event,76,0,4.3,33,0.06,0.43,9,Cultural Museum Visit
+901,0.72,0.47,0.26,1,Couple,Mid-range,1,Rainy,36,66,Wellness Expo,21,1,5.0,24,0.26,0.27,83,Spa Package
+902,0.21,0.79,0.9,0,Solo,Budget,13,Cloudy,39,67,Sports Event,65,1,4.6,4,0.54,0.51,13,Spa Package
+903,0.81,0.03,0.8,0,Solo,Mid-range,5,Snowy,16,30,Sports Event,49,1,3.6,94,0.43,0.18,49,Food Experience
+904,0.06,0.63,0.15,0,Couple,Mid-range,10,Rainy,37,85,Music Festival,62,0,4.5,59,0.37,0.0,67,Adventure Trek
+905,0.99,0.03,0.54,0,Couple,Mid-range,8,Cloudy,40,98,Food Carnival,72,0,4.7,62,0.06,0.79,94,Food Experience
+906,0.44,0.77,0.24,1,Family,Budget,6,Cloudy,16,82,Sports Event,36,0,4.0,27,0.2,0.43,13,Cultural Museum Visit
+907,0.98,0.32,0.5,1,Couple,Budget,4,Cloudy,11,70,Food Carnival,95,0,4.0,57,0.39,0.94,67,City Tour
+908,0.08,0.22,0.14,0,Family,Budget,6,Cloudy,25,42,Cultural Fair,11,0,4.1,96,0.68,0.46,73,Food Experience
+909,0.78,0.75,0.55,0,Solo,Luxury,10,Snowy,12,52,Music Festival,81,0,3.9,36,0.8,0.34,41,Adventure Trek
+910,0.43,0.29,0.12,1,Couple,Luxury,6,Rainy,40,20,Food Carnival,84,0,4.5,95,0.33,0.42,63,Indoor Wellness Retreat
+911,0.89,0.51,0.35,1,Couple,Budget,13,Rainy,17,39,Food Carnival,78,0,4.9,11,0.58,0.46,18,Indoor Wellness Retreat
+912,0.43,0.27,0.81,0,Solo,Luxury,6,Rainy,28,93,Food Carnival,22,1,4.9,61,0.99,0.12,70,Indoor Wellness Retreat
+913,0.46,0.65,0.38,0,Business,Luxury,10,Rainy,10,37,Sports Event,20,1,4.6,42,0.03,0.06,79,Indoor Wellness Retreat
+914,0.06,0.75,0.89,0,Solo,Luxury,2,Sunny,25,61,Wellness Expo,88,0,4.0,14,0.67,0.74,35,Spa Package
+915,0.29,0.17,0.72,0,Couple,Budget,8,Snowy,24,11,Cultural Fair,3,0,3.6,37,0.44,0.14,80,Spa Package
+916,0.16,0.65,0.45,0,Couple,Mid-range,2,Cloudy,34,5,Cultural Fair,12,0,4.3,1,0.63,0.3,41,City Tour
+917,0.92,0.14,0.74,0,Solo,Mid-range,10,Cloudy,11,86,Food Carnival,33,1,3.7,31,0.98,0.83,92,Indoor Wellness Retreat
+918,0.96,0.06,0.37,1,Business,Budget,5,Sunny,40,32,Wellness Expo,91,0,3.8,95,0.03,0.17,56,Spa Package
+919,0.58,0.13,0.41,0,Solo,Mid-range,2,Rainy,16,17,Music Festival,45,1,4.3,18,0.17,0.22,93,Spa Package
+920,0.17,0.92,0.17,0,Couple,Budget,5,Sunny,37,74,Music Festival,74,0,3.8,78,0.65,0.97,74,Indoor Wellness Retreat
+921,0.35,0.14,0.79,0,Family,Mid-range,5,Snowy,19,84,Cultural Fair,83,0,3.9,38,0.68,0.6,52,Spa Package
+922,0.52,0.66,0.22,1,Solo,Mid-range,10,Rainy,22,24,Sports Event,33,0,4.0,75,0.12,0.22,66,City Tour
+923,0.05,0.34,0.5,1,Family,Budget,13,Rainy,26,7,Food Carnival,69,0,4.6,78,0.3,0.5,73,Spa Package
+924,0.8,0.39,0.59,0,Family,Luxury,4,Sunny,16,15,Food Carnival,50,1,5.0,29,0.1,0.1,10,Indoor Wellness Retreat
+925,0.26,0.07,0.88,0,Solo,Mid-range,4,Rainy,24,30,Cultural Fair,94,1,4.6,7,0.36,0.98,2,Cultural Museum Visit
+926,0.28,0.54,0.02,1,Family,Luxury,11,Cloudy,24,22,Cultural Fair,74,0,4.2,25,0.13,0.83,54,Adventure Trek
+927,0.78,0.34,0.59,0,Business,Mid-range,6,Cloudy,22,22,Music Festival,30,0,3.7,82,0.17,0.05,26,Spa Package
+928,0.27,0.24,0.49,1,Business,Luxury,7,Snowy,12,24,Cultural Fair,93,1,4.3,6,0.21,0.35,67,City Tour
+929,0.29,0.52,0.1,0,Business,Budget,13,Cloudy,36,7,Wellness Expo,36,0,4.5,76,0.31,0.72,6,Indoor Wellness Retreat
+930,0.16,0.9,0.91,1,Solo,Mid-range,11,Rainy,20,46,Wellness Expo,95,0,4.2,13,0.52,0.49,77,Food Experience
+931,0.74,0.86,0.43,1,Couple,Luxury,6,Snowy,29,17,Cultural Fair,26,1,4.4,86,0.3,0.87,67,Cultural Museum Visit
+932,0.79,0.06,0.54,0,Couple,Luxury,7,Cloudy,17,91,Cultural Fair,57,0,4.2,68,0.74,0.23,96,Adventure Trek
+933,0.41,0.47,0.35,1,Couple,Luxury,2,Rainy,35,30,Wellness Expo,46,0,4.9,6,0.79,0.75,81,Indoor Wellness Retreat
+934,0.53,0.1,0.58,0,Solo,Budget,7,Snowy,16,13,Wellness Expo,52,1,4.4,22,0.28,0.23,28,Spa Package
+935,0.68,0.85,0.56,1,Business,Mid-range,7,Cloudy,21,50,Food Carnival,61,1,3.6,35,0.43,0.22,85,City Tour
+936,0.5,0.43,0.35,1,Couple,Mid-range,5,Sunny,15,79,Music Festival,20,0,3.8,59,0.86,0.59,74,City Tour
+937,0.35,0.6,0.98,1,Family,Luxury,4,Rainy,32,57,Food Carnival,23,1,4.7,85,0.28,0.76,64,City Tour
+938,0.97,0.31,0.47,0,Solo,Luxury,12,Snowy,40,70,Music Festival,28,1,3.6,28,0.69,0.96,28,Spa Package
+939,0.07,0.39,0.81,0,Solo,Budget,9,Cloudy,30,95,Sports Event,40,0,3.5,28,0.22,0.02,25,Indoor Wellness Retreat
+940,0.61,0.02,0.42,0,Business,Luxury,1,Cloudy,23,76,Sports Event,32,1,3.5,0,0.91,0.15,30,Cultural Museum Visit
+941,0.73,0.2,0.48,0,Couple,Luxury,5,Rainy,27,33,Wellness Expo,60,1,4.3,11,0.91,0.94,57,Cultural Museum Visit
+942,0.94,0.38,0.86,0,Solo,Mid-range,7,Rainy,31,48,Food Carnival,70,0,4.1,89,0.78,0.01,7,Indoor Wellness Retreat
+943,1.0,0.78,0.73,1,Couple,Mid-range,14,Snowy,19,20,Food Carnival,18,0,3.6,47,0.65,0.57,43,City Tour
+944,0.7,0.61,0.09,1,Couple,Budget,12,Sunny,25,95,Sports Event,6,1,4.1,81,0.76,0.22,42,Indoor Wellness Retreat
+945,0.53,0.4,0.72,1,Solo,Mid-range,8,Sunny,14,14,Wellness Expo,47,1,4.9,70,0.81,0.81,67,Cultural Museum Visit
+946,0.71,0.7,0.05,1,Business,Budget,6,Rainy,36,56,Cultural Fair,84,1,4.4,14,0.94,1.0,18,Indoor Wellness Retreat
+947,0.52,0.18,0.8,0,Couple,Budget,12,Sunny,29,48,Cultural Fair,32,1,4.2,59,0.18,0.72,17,Adventure Trek
+948,0.48,0.61,0.96,0,Family,Mid-range,9,Cloudy,31,87,Cultural Fair,25,1,4.7,80,0.92,0.9,90,Cultural Museum Visit
+949,0.97,0.32,0.71,1,Family,Mid-range,12,Rainy,19,76,Wellness Expo,56,1,5.0,32,0.96,0.21,78,Cultural Museum Visit
+950,0.24,0.45,0.97,1,Solo,Luxury,14,Cloudy,27,94,Cultural Fair,48,1,3.9,75,0.52,0.6,1,Spa Package
+951,0.23,0.75,0.77,1,Family,Mid-range,1,Cloudy,24,71,Music Festival,60,1,4.0,24,0.47,0.27,34,City Tour
+952,0.43,0.42,0.9,1,Couple,Luxury,2,Snowy,23,12,Wellness Expo,76,1,3.5,56,0.96,0.84,95,Indoor Wellness Retreat
+953,0.27,0.95,0.28,0,Family,Mid-range,1,Rainy,18,34,Cultural Fair,97,1,4.8,96,0.52,0.0,2,Adventure Trek
+954,0.42,0.08,0.48,0,Business,Budget,1,Snowy,18,22,Food Carnival,91,0,4.9,93,0.4,0.51,5,Spa Package
+955,0.98,0.1,0.81,1,Business,Mid-range,12,Rainy,32,1,Wellness Expo,59,1,4.0,52,0.86,0.96,16,Spa Package
+956,0.62,0.59,0.62,0,Family,Luxury,4,Cloudy,20,40,Food Carnival,52,0,4.7,29,0.9,0.9,50,Adventure Trek
+957,0.0,0.23,0.17,1,Business,Luxury,14,Sunny,32,58,Cultural Fair,18,0,3.6,20,0.37,0.94,30,Spa Package
+958,0.02,0.78,0.97,0,Business,Budget,7,Snowy,19,69,Cultural Fair,11,1,3.8,82,0.43,0.54,14,Indoor Wellness Retreat
+959,0.63,0.1,0.6,1,Family,Mid-range,10,Sunny,20,29,Sports Event,96,1,4.5,39,0.42,0.11,39,Food Experience
+960,0.95,0.73,0.47,1,Couple,Luxury,6,Cloudy,21,70,Sports Event,11,0,4.4,88,0.63,0.92,79,City Tour
+961,0.61,0.7,0.22,1,Couple,Mid-range,1,Sunny,11,17,Wellness Expo,92,1,3.9,77,0.06,0.13,8,Food Experience
+962,0.45,0.09,0.38,1,Solo,Budget,7,Snowy,36,65,Food Carnival,43,1,4.3,29,0.99,0.18,71,Adventure Trek
+963,0.31,0.92,0.94,0,Business,Luxury,8,Cloudy,14,72,Cultural Fair,73,1,3.6,74,0.63,0.24,52,Food Experience
+964,0.98,0.23,0.65,0,Solo,Budget,1,Cloudy,29,16,Cultural Fair,35,1,3.5,40,0.79,0.64,49,City Tour
+965,0.82,0.83,0.14,1,Family,Luxury,6,Rainy,23,59,Wellness Expo,97,1,4.0,3,0.69,0.79,67,City Tour
+966,0.25,0.64,0.73,1,Couple,Budget,4,Cloudy,14,45,Music Festival,12,1,4.4,90,0.9,0.53,85,Adventure Trek
+967,0.78,0.31,0.66,0,Business,Mid-range,5,Sunny,30,23,Wellness Expo,18,1,4.4,20,0.13,0.62,71,Adventure Trek
+968,0.32,0.53,0.45,0,Couple,Budget,8,Sunny,21,16,Cultural Fair,95,1,4.8,46,0.91,0.69,27,Adventure Trek
+969,0.14,0.97,0.01,0,Family,Budget,4,Sunny,40,52,Cultural Fair,89,1,4.1,20,0.4,0.28,27,Indoor Wellness Retreat
+970,0.3,0.91,0.97,0,Family,Mid-range,8,Snowy,18,56,Sports Event,34,0,5.0,5,0.22,0.17,74,City Tour
+971,0.72,0.75,0.19,1,Business,Mid-range,8,Rainy,11,96,Sports Event,2,1,3.7,15,0.86,0.68,41,Adventure Trek
+972,0.09,0.75,0.86,1,Family,Budget,14,Sunny,28,6,Food Carnival,51,1,4.8,34,0.2,0.01,2,Cultural Museum Visit
+973,0.68,0.23,0.53,1,Family,Luxury,11,Sunny,25,48,Food Carnival,46,1,4.7,59,0.65,0.11,44,Food Experience
+974,0.78,0.6,0.37,0,Business,Mid-range,13,Sunny,13,38,Cultural Fair,46,0,4.3,63,0.66,0.62,12,Cultural Museum Visit
+975,0.32,0.4,0.41,0,Family,Luxury,3,Rainy,35,80,Food Carnival,1,1,3.7,64,0.07,0.48,75,Food Experience
+976,0.96,0.92,0.99,0,Family,Budget,7,Snowy,10,15,Sports Event,92,1,4.8,58,0.98,0.96,95,Indoor Wellness Retreat
+977,0.76,0.8,0.64,0,Couple,Mid-range,12,Rainy,39,2,Sports Event,76,1,4.3,70,0.41,0.1,38,Indoor Wellness Retreat
+978,0.32,0.18,0.92,1,Solo,Mid-range,9,Rainy,31,58,Wellness Expo,63,1,4.4,60,0.87,0.35,92,Spa Package
+979,0.44,0.41,0.56,0,Family,Luxury,2,Rainy,16,64,Music Festival,93,1,4.7,46,0.85,0.61,38,Cultural Museum Visit
+980,0.7,0.11,0.22,1,Solo,Mid-range,4,Snowy,19,2,Cultural Fair,9,1,4.1,36,0.32,0.24,89,Cultural Museum Visit
+981,0.53,0.85,0.89,1,Couple,Luxury,13,Snowy,11,4,Cultural Fair,36,1,3.6,15,0.32,0.13,92,Indoor Wellness Retreat
+982,0.7,0.32,0.33,1,Couple,Budget,4,Rainy,14,81,Sports Event,38,0,3.7,39,0.47,0.01,60,Adventure Trek
+983,0.41,0.04,0.49,1,Solo,Luxury,9,Rainy,32,6,Wellness Expo,35,0,4.6,45,0.32,0.69,53,Indoor Wellness Retreat
+984,0.82,0.93,0.93,1,Solo,Budget,8,Snowy,19,27,Cultural Fair,78,0,4.8,14,0.51,0.77,43,Adventure Trek
+985,0.77,0.27,0.54,0,Couple,Luxury,11,Cloudy,27,78,Food Carnival,11,0,4.5,9,0.5,0.51,82,City Tour
+986,0.52,0.01,0.77,0,Solo,Mid-range,7,Cloudy,19,11,Music Festival,2,1,4.1,25,0.93,0.84,72,Food Experience
+987,0.56,0.61,0.77,0,Solo,Luxury,13,Sunny,33,45,Cultural Fair,7,0,4.3,55,0.64,0.72,50,Food Experience
+988,0.38,0.99,0.58,0,Couple,Budget,14,Rainy,15,73,Music Festival,0,0,3.9,79,0.03,0.76,34,Food Experience
+989,0.35,0.94,0.35,0,Solo,Mid-range,12,Snowy,21,86,Food Carnival,53,0,4.4,32,0.45,0.92,49,Spa Package
+990,0.82,0.07,0.82,0,Family,Luxury,14,Sunny,11,61,Music Festival,13,0,3.8,9,0.58,0.96,81,Indoor Wellness Retreat
+991,0.33,0.39,0.32,1,Couple,Budget,11,Rainy,27,12,Food Carnival,98,0,4.2,9,0.36,0.05,85,City Tour
+992,0.22,0.34,0.36,1,Family,Mid-range,12,Snowy,19,58,Cultural Fair,24,1,4.9,89,0.74,0.84,61,Cultural Museum Visit
+993,0.11,0.44,0.51,0,Couple,Mid-range,4,Rainy,14,66,Cultural Fair,55,1,4.0,22,0.7,0.93,10,City Tour
+994,0.01,0.75,0.16,0,Business,Luxury,1,Rainy,21,0,Food Carnival,95,1,4.0,23,0.08,0.17,93,Indoor Wellness Retreat
+995,0.3,0.82,0.88,1,Solo,Luxury,10,Cloudy,29,38,Food Carnival,27,0,4.5,21,0.38,0.7,86,Adventure Trek
+996,0.48,0.3,0.41,0,Couple,Budget,6,Sunny,19,46,Cultural Fair,22,1,4.1,68,0.24,0.57,21,Cultural Museum Visit
+997,0.78,0.71,0.61,0,Family,Budget,3,Snowy,16,1,Food Carnival,21,1,4.7,87,0.15,0.16,78,Indoor Wellness Retreat
+998,0.04,0.72,0.2,0,Family,Budget,9,Sunny,20,80,Sports Event,54,0,5.0,19,0.12,0.98,87,City Tour
+999,0.39,0.8,0.52,0,Family,Mid-range,13,Sunny,26,69,Sports Event,12,1,3.9,81,0.03,0.91,8,Adventure Trek
+1000,0.64,0.93,0.3,0,Business,Mid-range,4,Snowy,10,32,Wellness Expo,91,1,5.0,60,0.92,0.95,77,City Tour
