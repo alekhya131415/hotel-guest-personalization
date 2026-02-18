@@ -27,7 +27,7 @@ streamlit run dashboard.py
 ![Dashboard](screenshots/Dashboard.png)
 
 ### Guest Experience Heatmap
-![Heatmap](screenshots/Heat Map.png)
+![Heatmap](screenshots/Heatmap.png)
 
 ### Recommendation Demo
 ![Recommendation](screenshots/Recommended.png)
