@@ -16,3 +16,36 @@ Python, Streamlit, Pandas, NumPy, Matplotlib
 
 ## How to run
 streamlit run dashboard.py
+
+---
+
+## 📊 Dashboard Preview
+
+### Main Dashboard
+Dashboard
+
+### Guest Experience Heatmap
+Heatmap
+
+### Tourism Trend Timeline
+Timeline
+
+### Personalized Recommendation
+Recommendation
+
+---
+
+## 📁 Project Structure
+
+hotel_recommendation_dataset/
+│
+├── dashboard.py
+├── personalization.py
+├── hotel_recommendation.ipynb
+├── best_model.pkl
+├── final_dataset_clean.csv
+├── requirements.txt
+├── screenshots/
+└── README.md
+
+---
