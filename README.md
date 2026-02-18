@@ -21,18 +21,19 @@ streamlit run dashboard.py
 
 ## 📊 Dashboard Preview
 
+## Dashboard Preview
+
 ### Main Dashboard
-Dashboard
+![Dashboard](screenshots/Dashboard.png)
 
 ### Guest Experience Heatmap
-Heatmap
+![Heatmap](screenshots/HeatMap.png)
 
-### Tourism Trend Timeline
-Timeline
+### Tourism Timeline
+![Timeline](screenshots/Timeline.png)
 
-### Personalized Recommendation
-Recommendation
-
+### Recommendation Demo
+![Recommendation](screenshots/Recommendation.png)
 ---
 
 ## 📁 Project Structure
