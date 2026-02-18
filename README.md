@@ -27,13 +27,14 @@ streamlit run dashboard.py
 ![Dashboard](screenshots/Dashboard.png)
 
 ### Guest Experience Heatmap
-![Heatmap](screenshots/HeatMap.png)
+![Heatmap](screenshots/Heat Map.png)
+
+### Recommendation Demo
+![Recommendation](screenshots/Recommended.png)
 
 ### Tourism Timeline
 ![Timeline](screenshots/Timeline.png)
 
-### Recommendation Demo
-![Recommendation](screenshots/Recommendation.png)
 ---
 
 ## 📁 Project Structure
