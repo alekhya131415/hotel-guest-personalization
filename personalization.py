@@ -1,6 +1,13 @@
 import pandas as pd
 import pickle
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("GOOGLE_API_KEY")
+
 # Load dataset
 df = pd.read_csv("final_dataset_clean.csv")
 
