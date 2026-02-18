@@ -1,3 +1,6 @@
+## Live Demo
+https://hotel-guest-personalization.streamlit.app
+
 # Hotel Guest Personalization Dashboard
 
 ## Overview
